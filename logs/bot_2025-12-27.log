@@ -1,0 +1,68 @@
+2025-12-27 00:50:28,097 [INFO] __main__: 🚀 Логирование инициализировано
+2025-12-27 00:50:28,098 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-12-27 00:50:28,100 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-12-27 00:50:28,521 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-12-27 00:50:28,522 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-12-27 00:50:28,686 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-12-27 00:50:28,687 [INFO] aiogram.dispatcher: Start polling
+2025-12-27 00:50:28,839 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-12-27 01:06:44,519 [INFO] aiogram.event: Update id=444205426 is handled. Duration 218 ms by bot id=8432313674
+2025-12-27 01:06:46,435 [INFO] aiogram.event: Update id=444205427 is handled. Duration 392 ms by bot id=8432313674
+2025-12-27 01:07:26,911 [INFO] aiogram.event: Update id=444205428 is handled. Duration 121 ms by bot id=8432313674
+2025-12-27 11:21:02,604 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-27 11:21:02,605 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-27 11:21:15,865 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-27 14:29:58,470 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-27 14:29:58,471 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-27 14:30:16,139 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-27 14:30:16,143 [WARNING] aiogram.dispatcher: Sleep for 1.386163 seconds and try again... (tryings = 1, bot id = 8432313674)
+2025-12-27 14:30:30,990 [INFO] aiogram.dispatcher: Connection established (tryings = 2, bot id = 8432313674)
+2025-12-27 14:31:41,562 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-27 14:31:41,563 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-27 14:31:55,759 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-27 14:32:11,645 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-12-27 14:32:11,646 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-27 14:32:22,706 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-28 04:11:13,659 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-28 04:11:13,660 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-28 04:11:14,721 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2025-12-28 04:11:14,722 [WARNING] aiogram.dispatcher: Sleep for 1.291701 seconds and try again... (tryings = 1, bot id = 8432313674)
+2025-12-28 04:11:17,859 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 04:11:17,860 [WARNING] aiogram.dispatcher: Sleep for 1.713804 seconds and try again... (tryings = 2, bot id = 8432313674)
+2025-12-28 04:11:19,627 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 04:11:19,628 [WARNING] aiogram.dispatcher: Sleep for 2.362337 seconds and try again... (tryings = 3, bot id = 8432313674)
+2025-12-28 04:11:22,047 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 04:11:22,047 [WARNING] aiogram.dispatcher: Sleep for 3.086642 seconds and try again... (tryings = 4, bot id = 8432313674)
+2025-12-28 04:11:25,192 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 04:11:25,192 [WARNING] aiogram.dispatcher: Sleep for 4.146629 seconds and try again... (tryings = 5, bot id = 8432313674)
+2025-12-28 04:11:56,911 [INFO] aiogram.dispatcher: Connection established (tryings = 6, bot id = 8432313674)
+2025-12-28 14:10:12,160 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-12-28 14:10:12,161 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-28 14:10:41,300 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-28 14:11:00,532 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] Превышен таймаут семафора
+2025-12-28 14:11:00,533 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-28 14:11:11,702 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-28 14:12:49,563 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-28 14:12:49,564 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-28 14:13:13,045 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-28 14:13:40,556 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-12-28 14:13:40,557 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-28 14:14:39,630 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-28 20:52:50,101 [INFO] aiogram.event: Update id=444205429 is handled. Duration 184 ms by bot id=8432313674
+2025-12-28 20:52:52,142 [INFO] aiogram.event: Update id=444205430 is handled. Duration 423 ms by bot id=8432313674
+2025-12-28 20:52:54,740 [INFO] aiogram.event: Update id=444205431 is handled. Duration 358 ms by bot id=8432313674
+2025-12-28 20:52:57,567 [INFO] aiogram.event: Update id=444205432 is handled. Duration 367 ms by bot id=8432313674
+2025-12-29 04:08:25,238 [INFO] root: 🆕 Новый пользователь: 914038724 (fypecinuryx)
+2025-12-29 04:08:25,418 [INFO] aiogram.event: Update id=444205433 is handled. Duration 180 ms by bot id=8432313674
+2025-12-29 11:21:55,565 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-12-29 11:21:55,566 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-29 11:22:29,884 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2025-12-29 11:56:11,984 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2025-12-29 11:56:12,013 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-12-29 11:56:13,055 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Сетевая папка недоступна. За информацией о разрешении проблем в сети обратитесь к справочной системе Windows]
+2025-12-29 11:56:13,268 [WARNING] aiogram.dispatcher: Sleep for 1.349600 seconds and try again... (tryings = 1, bot id = 8432313674)
+2025-12-29 11:56:25,368 [INFO] aiogram.dispatcher: Connection established (tryings = 2, bot id = 8432313674)

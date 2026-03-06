@@ -1,0 +1,1365 @@
+2025-11-07 00:04:48,386 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:04:48,388 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:04:48,397 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:04:49,134 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:04:49,208 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:04:58,034 [INFO] root: ✅ Повторный запуск: 259810935 (a_sorich)
+2025-11-07 00:04:58,035 [INFO] aiogram.event: Update id=444204852 is handled. Duration 2 ms by bot id=8432313674
+2025-11-07 00:05:02,340 [INFO] root: ✅ Повторный запуск: 259810935 (a_sorich)
+2025-11-07 00:05:02,344 [INFO] aiogram.event: Update id=444204853 is handled. Duration 5 ms by bot id=8432313674
+2025-11-07 00:05:04,310 [INFO] root: ✅ Повторный запуск: 259810935 (a_sorich)
+2025-11-07 00:05:04,310 [INFO] aiogram.event: Update id=444204854 is handled. Duration 1 ms by bot id=8432313674
+2025-11-07 00:05:07,075 [INFO] aiogram.event: Update id=444204855 is handled. Duration 530 ms by bot id=8432313674
+2025-11-07 00:05:08,749 [INFO] aiogram.event: Update id=444204856 is handled. Duration 121 ms by bot id=8432313674
+2025-11-07 00:05:10,041 [INFO] aiogram.event: Update id=444204857 is handled. Duration 186 ms by bot id=8432313674
+2025-11-07 00:05:11,214 [INFO] aiogram.event: Update id=444204858 is handled. Duration 288 ms by bot id=8432313674
+2025-11-07 00:05:12,779 [INFO] aiogram.event: Update id=444204859 is handled. Duration 439 ms by bot id=8432313674
+2025-11-07 00:05:43,311 [INFO] root: ✅ Повторный запуск: 259810935 (a_sorich)
+2025-11-07 00:05:43,313 [INFO] aiogram.event: Update id=444204860 is handled. Duration 2 ms by bot id=8432313674
+2025-11-07 00:05:50,486 [INFO] aiogram.event: Update id=444204861 is handled. Duration 227 ms by bot id=8432313674
+2025-11-07 00:05:52,867 [INFO] root: ✅ Повторный запуск: 259810935 (a_sorich)
+2025-11-07 00:05:52,868 [INFO] aiogram.event: Update id=444204862 is handled. Duration 1 ms by bot id=8432313674
+2025-11-07 00:08:04,882 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 00:08:04,892 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 00:08:04,893 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 00:08:05,146 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:08:15,219 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:13:34,983 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:13:34,984 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:13:34,988 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:13:35,680 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:13:35,733 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:13:42,975 [INFO] root: 🆕 Новый пользователь: 259810935 (a_sorich)
+2025-11-07 00:13:43,279 [INFO] aiogram.event: Update id=444204863 is handled. Duration 306 ms by bot id=8432313674
+2025-11-07 00:13:45,214 [INFO] aiogram.event: Update id=444204864 is handled. Duration 562 ms by bot id=8432313674
+2025-11-07 00:13:46,498 [INFO] aiogram.event: Update id=444204865 is handled. Duration 134 ms by bot id=8432313674
+2025-11-07 00:13:53,130 [INFO] aiogram.event: Update id=444204866 is handled. Duration 132 ms by bot id=8432313674
+2025-11-07 00:14:25,662 [INFO] aiogram.event: Update id=444204867 is not handled. Duration 3 ms by bot id=8432313674
+2025-11-07 00:14:25,663 [ERROR] aiogram.event: Cause exception while process update id=444204867 by bot id=8432313674
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 282, in add_event
+    data = load_user_events()
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 268, in load_user_events
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-11-07 00:14:43,808 [INFO] aiogram.event: Update id=444204868 is handled. Duration 141 ms by bot id=8432313674
+2025-11-07 00:14:45,368 [INFO] aiogram.event: Update id=444204869 is handled. Duration 441 ms by bot id=8432313674
+2025-11-07 00:14:47,314 [INFO] aiogram.event: Update id=444204870 is not handled. Duration 2 ms by bot id=8432313674
+2025-11-07 00:14:47,315 [ERROR] aiogram.event: Cause exception while process update id=444204870 by bot id=8432313674
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 282, in add_event
+    data = load_user_events()
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 268, in load_user_events
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-11-07 00:14:48,246 [INFO] aiogram.event: Update id=444204871 is not handled. Duration 3 ms by bot id=8432313674
+2025-11-07 00:14:48,247 [ERROR] aiogram.event: Cause exception while process update id=444204871 by bot id=8432313674
+JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 282, in add_event
+    data = load_user_events()
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\start.py", line 268, in load_user_events
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-11-07 00:15:30,803 [INFO] aiogram.event: Update id=444204872 is handled. Duration 59 ms by bot id=8432313674
+2025-11-07 00:15:35,709 [INFO] aiogram.event: Update id=444204873 is handled. Duration 104 ms by bot id=8432313674
+2025-11-07 00:15:37,287 [INFO] aiogram.event: Update id=444204874 is handled. Duration 136 ms by bot id=8432313674
+2025-11-07 00:16:03,204 [INFO] aiogram.event: Update id=444204875 is handled. Duration 156 ms by bot id=8432313674
+2025-11-07 00:16:04,863 [INFO] aiogram.event: Update id=444204876 is handled. Duration 129 ms by bot id=8432313674
+2025-11-07 00:16:07,382 [INFO] aiogram.event: Update id=444204877 is handled. Duration 179 ms by bot id=8432313674
+2025-11-07 00:16:09,083 [INFO] aiogram.event: Update id=444204878 is handled. Duration 428 ms by bot id=8432313674
+2025-11-07 00:16:10,237 [INFO] aiogram.event: Update id=444204879 is handled. Duration 66 ms by bot id=8432313674
+2025-11-07 00:16:11,784 [INFO] aiogram.event: Update id=444204880 is handled. Duration 63 ms by bot id=8432313674
+2025-11-07 00:16:15,267 [INFO] aiogram.event: Update id=444204881 is handled. Duration 432 ms by bot id=8432313674
+2025-11-07 00:16:16,854 [INFO] aiogram.event: Update id=444204882 is handled. Duration 103 ms by bot id=8432313674
+2025-11-07 00:16:17,346 [INFO] aiogram.event: Update id=444204883 is handled. Duration 95 ms by bot id=8432313674
+2025-11-07 00:16:18,139 [INFO] aiogram.event: Update id=444204884 is handled. Duration 84 ms by bot id=8432313674
+2025-11-07 00:16:19,080 [INFO] aiogram.event: Update id=444204885 is handled. Duration 205 ms by bot id=8432313674
+2025-11-07 00:16:21,387 [INFO] aiogram.event: Update id=444204886 is handled. Duration 1004 ms by bot id=8432313674
+2025-11-07 00:20:42,937 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 00:20:42,941 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 00:20:42,942 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 00:20:43,196 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:20:52,636 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:20:52,637 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:20:52,639 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:20:53,271 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:20:53,325 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:21:00,326 [DEBUG] root: ✅ Известный пользователь: 259810935 (a_sorich)
+2025-11-07 00:21:00,478 [INFO] aiogram.event: Update id=444204887 is not handled. Duration 155 ms by bot id=8432313674
+2025-11-07 00:21:00,479 [ERROR] aiogram.event: Cause exception while process update id=444204887 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 70
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\middlewares\user_logger.py", line 37, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\admin.py", line 43, in show_users
+    await message.answer(text, parse_mode="Markdown")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 70
+2025-11-07 00:21:06,353 [DEBUG] root: ✅ Известный пользователь: 259810935 (a_sorich)
+2025-11-07 00:21:06,403 [INFO] aiogram.event: Update id=444204888 is not handled. Duration 53 ms by bot id=8432313674
+2025-11-07 00:21:06,404 [ERROR] aiogram.event: Cause exception while process update id=444204888 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 70
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\middlewares\user_logger.py", line 37, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\handlers\admin.py", line 43, in show_users
+    await message.answer(text, parse_mode="Markdown")
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 70
+2025-11-07 00:21:08,495 [INFO] aiogram.event: Update id=444204889 is handled. Duration 285 ms by bot id=8432313674
+2025-11-07 00:24:02,589 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 00:24:02,623 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 00:24:02,657 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 00:24:02,932 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:25:02,148 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:25:02,152 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:25:02,154 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:25:02,942 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:25:02,997 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:25:07,076 [INFO] aiogram.event: Update id=444204890 is handled. Duration 257 ms by bot id=8432313674
+2025-11-07 00:25:08,388 [INFO] aiogram.event: Update id=444204891 is handled. Duration 138 ms by bot id=8432313674
+2025-11-07 00:25:12,626 [DEBUG] root: ✅ Известный пользователь: 259810935 (a_sorich)
+2025-11-07 00:25:12,711 [INFO] aiogram.event: Update id=444204892 is handled. Duration 85 ms by bot id=8432313674
+2025-11-07 00:25:15,656 [DEBUG] root: ✅ Известный пользователь: 259810935 (a_sorich)
+2025-11-07 00:25:15,723 [INFO] aiogram.event: Update id=444204893 is handled. Duration 72 ms by bot id=8432313674
+2025-11-07 00:27:39,989 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 00:27:39,996 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 00:27:40,001 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 00:27:40,260 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:28:50,313 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:28:50,314 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:28:50,316 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:28:50,935 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:28:50,982 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:28:55,382 [INFO] aiogram.event: Update id=444204894 is not handled. Duration 3 ms by bot id=8432313674
+2025-11-07 00:28:55,383 [ERROR] aiogram.event: Cause exception while process update id=444204894 by bot id=8432313674
+TypeError: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\race_event_bot_v0.5_календарь МСК(3часа) + веб + меню+список юзеров\middlewares\user_logger.py", line 44, in __call__
+    if self.users[user_id]["username"] != username:
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-07 00:30:25,261 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 00:30:25,267 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 00:30:25,272 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 00:30:25,528 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:30:36,638 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 00:30:36,638 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 00:30:36,641 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 00:30:37,281 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 00:30:37,333 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 00:30:40,001 [INFO] aiogram.event: Update id=444204895 is handled. Duration 188 ms by bot id=8432313674
+2025-11-07 00:30:48,058 [INFO] aiogram.event: Update id=444204896 is handled. Duration 568 ms by bot id=8432313674
+2025-11-07 00:30:50,689 [INFO] aiogram.event: Update id=444204897 is handled. Duration 120 ms by bot id=8432313674
+2025-11-07 00:30:52,751 [INFO] aiogram.event: Update id=444204898 is handled. Duration 652 ms by bot id=8432313674
+2025-11-07 00:30:54,231 [INFO] aiogram.event: Update id=444204899 is handled. Duration 113 ms by bot id=8432313674
+2025-11-07 00:30:56,527 [INFO] aiogram.event: Update id=444204900 is handled. Duration 139 ms by bot id=8432313674
+2025-11-07 00:30:58,856 [INFO] aiogram.event: Update id=444204901 is handled. Duration 116 ms by bot id=8432313674
+2025-11-07 00:31:01,693 [INFO] aiogram.event: Update id=444204902 is handled. Duration 128 ms by bot id=8432313674
+2025-11-07 00:31:02,902 [INFO] aiogram.event: Update id=444204903 is handled. Duration 108 ms by bot id=8432313674
+2025-11-07 00:31:08,555 [INFO] aiogram.event: Update id=444204904 is handled. Duration 80 ms by bot id=8432313674
+2025-11-07 00:31:10,223 [INFO] aiogram.event: Update id=444204905 is handled. Duration 424 ms by bot id=8432313674
+2025-11-07 00:31:11,462 [INFO] aiogram.event: Update id=444204906 is handled. Duration 148 ms by bot id=8432313674
+2025-11-07 00:31:12,734 [INFO] aiogram.event: Update id=444204907 is handled. Duration 327 ms by bot id=8432313674
+2025-11-07 00:31:13,930 [INFO] aiogram.event: Update id=444204908 is handled. Duration 132 ms by bot id=8432313674
+2025-11-07 00:31:15,469 [INFO] aiogram.event: Update id=444204909 is handled. Duration 527 ms by bot id=8432313674
+2025-11-07 00:31:36,038 [INFO] aiogram.event: Update id=444204910 is handled. Duration 113 ms by bot id=8432313674
+2025-11-07 00:31:37,122 [INFO] aiogram.event: Update id=444204911 is handled. Duration 80 ms by bot id=8432313674
+2025-11-07 00:31:38,158 [INFO] aiogram.event: Update id=444204912 is handled. Duration 88 ms by bot id=8432313674
+2025-11-07 00:31:41,589 [INFO] aiogram.event: Update id=444204913 is handled. Duration 123 ms by bot id=8432313674
+2025-11-07 00:31:43,061 [INFO] aiogram.event: Update id=444204914 is handled. Duration 543 ms by bot id=8432313674
+2025-11-07 00:33:36,896 [INFO] aiogram.event: Update id=444204915 is handled. Duration 74 ms by bot id=8432313674
+2025-11-07 00:33:39,936 [INFO] aiogram.event: Update id=444204916 is handled. Duration 90 ms by bot id=8432313674
+2025-11-07 00:34:22,816 [INFO] aiogram.event: Update id=444204917 is handled. Duration 79 ms by bot id=8432313674
+2025-11-07 00:34:34,853 [INFO] aiogram.event: Update id=444204918 is handled. Duration 549 ms by bot id=8432313674
+2025-11-07 00:34:40,683 [INFO] aiogram.event: Update id=444204919 is handled. Duration 249 ms by bot id=8432313674
+2025-11-07 00:34:45,666 [INFO] aiogram.event: Update id=444204920 is handled. Duration 998 ms by bot id=8432313674
+2025-11-07 00:37:07,258 [INFO] aiogram.event: Update id=444204921 is handled. Duration 98 ms by bot id=8432313674
+2025-11-07 00:37:07,533 [INFO] aiogram.event: Update id=444204922 is handled. Duration 75 ms by bot id=8432313674
+2025-11-07 00:42:33,190 [INFO] aiogram.event: Update id=444204923 is handled. Duration 151 ms by bot id=8432313674
+2025-11-07 00:42:35,782 [INFO] aiogram.event: Update id=444204924 is handled. Duration 80 ms by bot id=8432313674
+2025-11-07 01:11:05,455 [INFO] aiogram.event: Update id=444204925 is handled. Duration 524 ms by bot id=8432313674
+2025-11-07 01:11:06,848 [INFO] aiogram.event: Update id=444204926 is handled. Duration 177 ms by bot id=8432313674
+2025-11-07 01:11:08,194 [INFO] aiogram.event: Update id=444204927 is handled. Duration 321 ms by bot id=8432313674
+2025-11-07 01:11:10,614 [INFO] aiogram.event: Update id=444204928 is handled. Duration 137 ms by bot id=8432313674
+2025-11-07 04:10:54,083 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:10:54,084 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 04:10:55,141 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:10:55,142 [WARNING] aiogram.dispatcher: Sleep for 1.393924 seconds and try again... (tryings = 1, bot id = 8432313674)
+2025-11-07 04:10:56,596 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:10:56,596 [WARNING] aiogram.dispatcher: Sleep for 1.833698 seconds and try again... (tryings = 2, bot id = 8432313674)
+2025-11-07 04:10:58,484 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:10:58,484 [WARNING] aiogram.dispatcher: Sleep for 2.400163 seconds and try again... (tryings = 3, bot id = 8432313674)
+2025-11-07 04:11:00,938 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:11:00,941 [WARNING] aiogram.dispatcher: Sleep for 3.179176 seconds and try again... (tryings = 4, bot id = 8432313674)
+2025-11-07 04:11:04,188 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:11:04,189 [WARNING] aiogram.dispatcher: Sleep for 4.451934 seconds and try again... (tryings = 5, bot id = 8432313674)
+2025-11-07 04:11:08,719 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:11:08,720 [WARNING] aiogram.dispatcher: Sleep for 5.007807 seconds and try again... (tryings = 6, bot id = 8432313674)
+2025-11-07 04:11:13,785 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2025-11-07 04:11:13,786 [WARNING] aiogram.dispatcher: Sleep for 5.210037 seconds and try again... (tryings = 7, bot id = 8432313674)
+2025-11-07 04:11:40,583 [INFO] aiogram.dispatcher: Connection established (tryings = 8, bot id = 8432313674)
+2025-11-07 10:27:36,876 [INFO] aiogram.event: Update id=444204929 is handled. Duration 234 ms by bot id=8432313674
+2025-11-07 11:22:42,095 [INFO] aiogram.event: Update id=444204930 is handled. Duration 206 ms by bot id=8432313674
+2025-11-07 11:56:32,507 [INFO] aiogram.event: Update id=444204931 is handled. Duration 209 ms by bot id=8432313674
+2025-11-07 11:56:34,349 [INFO] aiogram.event: Update id=444204932 is handled. Duration 514 ms by bot id=8432313674
+2025-11-07 15:21:46,084 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 15:21:46,088 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 15:21:46,090 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 15:21:46,870 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 15:21:46,916 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:22:00,731 [INFO] aiogram.event: Update id=444204933 is handled. Duration 242 ms by bot id=8432313674
+2025-11-07 15:22:02,659 [INFO] aiogram.event: Update id=444204934 is handled. Duration 847 ms by bot id=8432313674
+2025-11-07 15:22:03,659 [INFO] aiogram.event: Update id=444204935 is handled. Duration 257 ms by bot id=8432313674
+2025-11-07 15:22:05,517 [INFO] aiogram.event: Update id=444204936 is handled. Duration 364 ms by bot id=8432313674
+2025-11-07 15:22:07,392 [INFO] aiogram.event: Update id=444204937 is handled. Duration 838 ms by bot id=8432313674
+2025-11-07 15:22:09,965 [INFO] aiogram.event: Update id=444204938 is handled. Duration 71 ms by bot id=8432313674
+2025-11-07 15:29:55,358 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 15:29:55,362 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 15:29:55,362 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 15:29:55,624 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:44:43,408 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 15:44:43,410 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 15:44:43,417 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 15:44:44,194 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 15:44:44,247 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:48:51,220 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 15:48:51,221 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 15:48:51,223 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 15:51:46,446 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 15:51:46,449 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 15:51:46,457 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 15:51:46,899 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 15:51:47,212 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 15:51:47,273 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:51:54,514 [INFO] aiogram.event: Update id=444204948 is handled. Duration 526 ms by bot id=8432313674
+2025-11-07 15:51:56,718 [INFO] aiogram.event: Update id=444204949 is handled. Duration 141 ms by bot id=8432313674
+2025-11-07 15:52:00,279 [INFO] aiogram.event: Update id=444204950 is handled. Duration 250 ms by bot id=8432313674
+2025-11-07 15:53:46,830 [INFO] aiogram.event: Update id=444204951 is handled. Duration 132 ms by bot id=8432313674
+2025-11-07 15:53:49,065 [INFO] aiogram.event: Update id=444204952 is handled. Duration 1102 ms by bot id=8432313674
+2025-11-07 15:53:53,604 [INFO] aiogram.event: Update id=444204953 is handled. Duration 58 ms by bot id=8432313674
+2025-11-07 15:53:56,282 [INFO] aiogram.event: Update id=444204954 is handled. Duration 80 ms by bot id=8432313674
+2025-11-07 15:53:58,176 [INFO] aiogram.event: Update id=444204955 is handled. Duration 164 ms by bot id=8432313674
+2025-11-07 15:54:01,219 [INFO] aiogram.event: Update id=444204956 is handled. Duration 700 ms by bot id=8432313674
+2025-11-07 15:54:14,926 [INFO] aiogram.event: Update id=444204957 is handled. Duration 68 ms by bot id=8432313674
+2025-11-07 15:54:18,522 [INFO] aiogram.event: Update id=444204958 is handled. Duration 649 ms by bot id=8432313674
+2025-11-07 15:54:20,197 [INFO] aiogram.event: Update id=444204959 is handled. Duration 527 ms by bot id=8432313674
+2025-11-07 15:54:41,527 [INFO] aiogram.event: Update id=444204960 is handled. Duration 493 ms by bot id=8432313674
+2025-11-07 15:54:44,739 [INFO] aiogram.event: Update id=444204961 is handled. Duration 288 ms by bot id=8432313674
+2025-11-07 15:54:47,325 [INFO] aiogram.event: Update id=444204962 is handled. Duration 1110 ms by bot id=8432313674
+2025-11-07 15:54:48,750 [INFO] aiogram.event: Update id=444204963 is handled. Duration 105 ms by bot id=8432313674
+2025-11-07 15:54:50,396 [INFO] aiogram.event: Update id=444204964 is handled. Duration 283 ms by bot id=8432313674
+2025-11-07 15:54:52,357 [INFO] aiogram.event: Update id=444204965 is handled. Duration 682 ms by bot id=8432313674
+2025-11-07 15:54:54,611 [INFO] aiogram.event: Update id=444204966 is handled. Duration 356 ms by bot id=8432313674
+2025-11-07 15:55:52,419 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 15:55:52,423 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 15:55:52,423 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 15:55:52,688 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:56:01,596 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 15:56:01,598 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 15:56:01,602 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 15:56:02,092 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 15:56:02,305 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 15:56:02,360 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 15:57:09,162 [INFO] aiogram.event: Update id=444204967 is handled. Duration 215 ms by bot id=8432313674
+2025-11-07 15:58:50,731 [INFO] aiogram.event: Update id=444204968 is handled. Duration 598 ms by bot id=8432313674
+2025-11-07 15:58:54,460 [INFO] aiogram.event: Update id=444204969 is handled. Duration 154 ms by bot id=8432313674
+2025-11-07 15:59:26,369 [INFO] root: 🆕 Новый пользователь: 463194607 (arosich)
+2025-11-07 15:59:26,495 [INFO] aiogram.event: Update id=444204970 is handled. Duration 127 ms by bot id=8432313674
+2025-11-07 15:59:28,505 [INFO] aiogram.event: Update id=444204971 is handled. Duration 934 ms by bot id=8432313674
+2025-11-07 15:59:32,685 [INFO] aiogram.event: Update id=444204972 is handled. Duration 126 ms by bot id=8432313674
+2025-11-07 15:59:35,075 [INFO] aiogram.event: Update id=444204973 is handled. Duration 154 ms by bot id=8432313674
+2025-11-07 15:59:36,999 [INFO] aiogram.event: Update id=444204974 is handled. Duration 603 ms by bot id=8432313674
+2025-11-07 15:59:40,569 [INFO] aiogram.event: Update id=444204975 is handled. Duration 232 ms by bot id=8432313674
+2025-11-07 15:59:44,426 [INFO] aiogram.event: Update id=444204976 is handled. Duration 169 ms by bot id=8432313674
+2025-11-07 15:59:58,883 [INFO] aiogram.event: Update id=444204977 is handled. Duration 76 ms by bot id=8432313674
+2025-11-07 16:00:05,761 [INFO] aiogram.event: Update id=444204978 is handled. Duration 101 ms by bot id=8432313674
+2025-11-07 16:00:10,004 [INFO] aiogram.event: Update id=444204979 is handled. Duration 215 ms by bot id=8432313674
+2025-11-07 16:00:18,401 [INFO] aiogram.event: Update id=444204980 is handled. Duration 465 ms by bot id=8432313674
+2025-11-07 16:00:25,725 [INFO] aiogram.event: Update id=444204981 is handled. Duration 87 ms by bot id=8432313674
+2025-11-07 16:00:27,599 [INFO] aiogram.event: Update id=444204982 is handled. Duration 488 ms by bot id=8432313674
+2025-11-07 16:01:19,055 [INFO] aiogram.event: Update id=444204983 is handled. Duration 129 ms by bot id=8432313674
+2025-11-07 16:03:04,267 [INFO] aiogram.event: Update id=444204984 is handled. Duration 87 ms by bot id=8432313674
+2025-11-07 16:03:09,194 [INFO] aiogram.event: Update id=444204985 is handled. Duration 852 ms by bot id=8432313674
+2025-11-07 16:03:15,402 [INFO] aiogram.event: Update id=444204986 is handled. Duration 93 ms by bot id=8432313674
+2025-11-07 16:03:38,928 [INFO] aiogram.event: Update id=444204987 is handled. Duration 88 ms by bot id=8432313674
+2025-11-07 16:15:03,788 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 16:15:03,791 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 16:15:03,792 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 16:15:04,047 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:15:14,493 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 16:15:14,495 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 16:15:14,497 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 16:15:14,929 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 16:15:15,150 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 16:15:15,200 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:15:46,244 [INFO] aiogram.event: Update id=444204988 is handled. Duration 239 ms by bot id=8432313674
+2025-11-07 16:15:51,884 [INFO] aiogram.event: Update id=444204989 is handled. Duration 190 ms by bot id=8432313674
+2025-11-07 16:16:11,890 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 16:16:11,893 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 16:16:11,895 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 16:16:12,160 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:17:08,517 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 16:17:08,518 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 16:17:08,521 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 16:17:09,292 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 16:17:09,586 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 16:17:09,638 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:18:07,990 [INFO] aiogram.event: Update id=444204990 is handled. Duration 296 ms by bot id=8432313674
+2025-11-07 16:18:11,240 [INFO] aiogram.event: Update id=444204991 is handled. Duration 590 ms by bot id=8432313674
+2025-11-07 16:18:14,061 [INFO] aiogram.event: Update id=444204992 is handled. Duration 279 ms by bot id=8432313674
+2025-11-07 16:18:23,428 [INFO] aiogram.event: Update id=444204993 is not handled. Duration 8146 ms by bot id=8432313674
+2025-11-07 16:18:23,429 [ERROR] aiogram.event: Cause exception while process update id=444204993 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.9\handlers\start.py", line 637, in add_to_calendar
+    await callback.message.answer("\u200B", reply_markup=kb_back.as_markup())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+2025-11-07 16:32:54,122 [INFO] aiogram.event: Update id=444204994 is handled. Duration 169 ms by bot id=8432313674
+2025-11-07 16:32:55,447 [INFO] aiogram.event: Update id=444204995 is handled. Duration 321 ms by bot id=8432313674
+2025-11-07 16:33:01,955 [INFO] aiogram.event: Update id=444204996 is handled. Duration 88 ms by bot id=8432313674
+2025-11-07 16:35:27,427 [INFO] aiogram.event: Update id=444204997 is handled. Duration 87 ms by bot id=8432313674
+2025-11-07 16:35:30,220 [INFO] aiogram.event: Update id=444204998 is handled. Duration 90 ms by bot id=8432313674
+2025-11-07 16:35:31,571 [INFO] aiogram.event: Update id=444204999 is handled. Duration 164 ms by bot id=8432313674
+2025-11-07 16:36:14,107 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 16:36:14,110 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 16:36:14,111 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 16:36:14,366 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:36:23,545 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 16:36:23,546 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 16:36:23,563 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 16:36:23,977 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 16:36:24,184 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 16:36:24,236 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:36:44,059 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 16:36:44,061 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 16:36:44,062 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 16:36:44,320 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:36:53,605 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 16:36:53,607 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 16:36:53,609 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 16:36:53,985 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 16:36:54,310 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 16:36:54,361 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 16:37:09,638 [INFO] aiogram.event: Update id=444205000 is handled. Duration 267 ms by bot id=8432313674
+2025-11-07 16:37:11,496 [INFO] aiogram.event: Update id=444205001 is handled. Duration 205 ms by bot id=8432313674
+2025-11-07 16:37:16,798 [INFO] aiogram.event: Update id=444205002 is handled. Duration 139 ms by bot id=8432313674
+2025-11-07 16:41:59,760 [INFO] aiogram.event: Update id=444205003 is handled. Duration 132 ms by bot id=8432313674
+2025-11-07 16:42:03,700 [INFO] aiogram.event: Update id=444205004 is handled. Duration 588 ms by bot id=8432313674
+2025-11-07 16:42:07,204 [INFO] aiogram.event: Update id=444205005 is handled. Duration 137 ms by bot id=8432313674
+2025-11-07 16:42:10,220 [INFO] aiogram.event: Update id=444205006 is handled. Duration 129 ms by bot id=8432313674
+2025-11-07 16:42:12,979 [INFO] aiogram.event: Update id=444205007 is handled. Duration 137 ms by bot id=8432313674
+2025-11-07 17:10:22,748 [INFO] aiogram.event: Update id=444205008 is handled. Duration 264 ms by bot id=8432313674
+2025-11-07 17:13:18,681 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:13:18,682 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:13:18,685 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:13:19,242 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:13:19,486 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:13:19,487 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:13:19,539 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:13:24,858 [INFO] aiogram.event: Update id=444205009 is handled. Duration 1223 ms by bot id=8432313674
+2025-11-07 17:13:28,108 [INFO] aiogram.event: Update id=444205010 is handled. Duration 152 ms by bot id=8432313674
+2025-11-07 17:13:30,678 [INFO] aiogram.event: Update id=444205011 is handled. Duration 241 ms by bot id=8432313674
+2025-11-07 17:13:32,808 [INFO] aiogram.event: Update id=444205012 is not handled. Duration 2 ms by bot id=8432313674
+2025-11-07 17:13:32,808 [ERROR] aiogram.event: Cause exception while process update id=444205012 by bot id=8432313674
+TypeError: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 95, in list_races
+    race_link = f"https://t.me/{bot_username}?start={race['id']}"
+                                                     ~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-07 17:14:48,880 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 17:14:48,883 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 17:14:48,884 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 17:14:49,137 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:17:15,543 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:17:15,544 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:17:15,547 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:17:15,957 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:17:16,143 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:17:16,144 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:17:16,195 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:17:18,418 [INFO] aiogram.event: Update id=444205013 is handled. Duration 197 ms by bot id=8432313674
+2025-11-07 17:17:21,373 [INFO] aiogram.event: Update id=444205014 is not handled. Duration 2 ms by bot id=8432313674
+2025-11-07 17:17:21,374 [ERROR] aiogram.event: Cause exception while process update id=444205014 by bot id=8432313674
+TypeError: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 113, in list_races
+    f"🚴‍♂️ <b>{race['name']}</b>\n"
+                ~~~~^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-11-07 17:17:38,217 [INFO] aiogram.event: Update id=444205015 is handled. Duration 559 ms by bot id=8432313674
+2025-11-07 17:18:27,988 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 17:18:27,991 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 17:18:27,992 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 17:18:28,253 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:18:37,146 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:18:37,146 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:18:37,148 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:18:37,569 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:18:37,775 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:18:37,776 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:18:37,824 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:18:39,334 [INFO] aiogram.event: Update id=444205016 is handled. Duration 256 ms by bot id=8432313674
+2025-11-07 17:18:41,921 [INFO] aiogram.event: Update id=444205017 is not handled. Duration 1 ms by bot id=8432313674
+2025-11-07 17:18:41,922 [ERROR] aiogram.event: Cause exception while process update id=444205017 by bot id=8432313674
+TypeError: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 102, in list_races
+    race_id = race["id"]
+              ~~~~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-07 17:20:27,921 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 17:20:27,926 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 17:20:27,926 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 17:20:28,193 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:20:37,220 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:20:37,221 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:20:37,223 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:20:37,643 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:20:37,940 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:20:37,944 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:20:37,991 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:20:42,187 [INFO] aiogram.event: Update id=444205018 is not handled. Duration 990 ms by bot id=8432313674
+2025-11-07 17:20:42,188 [ERROR] aiogram.event: Cause exception while process update id=444205018 by bot id=8432313674
+KeyError: 'time'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 115, in list_races
+    f"📅 {race['date']} {race['time']}\n"
+                         ~~~~^^^^^^^^
+KeyError: 'time'
+2025-11-07 17:21:09,605 [INFO] aiogram.event: Update id=444205019 is handled. Duration 69 ms by bot id=8432313674
+2025-11-07 17:21:14,154 [INFO] aiogram.event: Update id=444205020 is handled. Duration 75 ms by bot id=8432313674
+2025-11-07 17:21:49,301 [INFO] aiogram.event: Update id=444205021 is handled. Duration 74 ms by bot id=8432313674
+2025-11-07 17:22:24,408 [INFO] aiogram.event: Update id=444205022 is handled. Duration 150 ms by bot id=8432313674
+2025-11-07 17:22:50,805 [INFO] aiogram.event: Update id=444205023 is handled. Duration 68 ms by bot id=8432313674
+2025-11-07 17:29:48,087 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 17:29:48,092 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 17:29:48,093 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 17:29:48,359 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:29:56,726 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:29:56,728 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:29:56,731 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:29:57,193 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:29:57,498 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:29:57,499 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:29:57,548 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:30:04,112 [INFO] aiogram.event: Update id=444205024 is handled. Duration 221 ms by bot id=8432313674
+2025-11-07 17:30:08,295 [INFO] aiogram.event: Update id=444205025 is handled. Duration 125 ms by bot id=8432313674
+2025-11-07 17:30:13,605 [INFO] aiogram.event: Update id=444205026 is handled. Duration 123 ms by bot id=8432313674
+2025-11-07 17:30:19,364 [INFO] aiogram.event: Update id=444205027 is not handled. Duration 1069 ms by bot id=8432313674
+2025-11-07 17:30:19,366 [ERROR] aiogram.event: Cause exception while process update id=444205027 by bot id=8432313674
+KeyError: 'time'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 159, in list_races
+    f"📅 {race['date']} {race['time']}\n"
+                         ~~~~^^^^^^^^
+KeyError: 'time'
+2025-11-07 17:30:27,299 [INFO] aiogram.event: Update id=444205028 is handled. Duration 75 ms by bot id=8432313674
+2025-11-07 17:31:28,097 [INFO] aiogram.event: Update id=444205029 is handled. Duration 79 ms by bot id=8432313674
+2025-11-07 17:31:32,076 [INFO] aiogram.event: Update id=444205030 is handled. Duration 159 ms by bot id=8432313674
+2025-11-07 17:31:46,385 [INFO] aiogram.event: Update id=444205031 is handled. Duration 72 ms by bot id=8432313674
+2025-11-07 17:31:50,394 [INFO] aiogram.event: Update id=444205032 is handled. Duration 1089 ms by bot id=8432313674
+2025-11-07 17:31:58,060 [INFO] aiogram.event: Update id=444205033 is not handled. Duration 862 ms by bot id=8432313674
+2025-11-07 17:31:58,061 [ERROR] aiogram.event: Cause exception while process update id=444205033 by bot id=8432313674
+KeyError: 'time'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\middlewares\user_logger.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\bot.py", line 159, in list_races
+    f"📅 {race['date']} {race['time']}\n"
+                         ~~~~^^^^^^^^
+KeyError: 'time'
+2025-11-07 17:32:50,276 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-07 17:32:50,279 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-07 17:32:50,280 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-07 17:32:50,535 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:32:59,656 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-07 17:32:59,657 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-07 17:32:59,660 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-07 17:33:00,145 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-07 17:33:00,374 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-07 17:33:00,375 [INFO] aiogram.dispatcher: Start polling
+2025-11-07 17:33:00,426 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-07 17:33:12,492 [INFO] aiogram.event: Update id=444205034 is handled. Duration 191 ms by bot id=8432313674
+2025-11-07 17:33:14,941 [INFO] aiogram.event: Update id=444205035 is handled. Duration 297 ms by bot id=8432313674
+2025-11-07 17:33:17,920 [INFO] aiogram.event: Update id=444205036 is handled. Duration 75 ms by bot id=8432313674
+2025-11-07 17:34:30,516 [INFO] aiogram.event: Update id=444205037 is handled. Duration 78 ms by bot id=8432313674
+2025-11-07 17:38:20,771 [INFO] aiogram.event: Update id=444205038 is not handled. Duration 2 ms by bot id=8432313674
+2025-11-07 17:38:23,194 [INFO] aiogram.event: Update id=444205039 is not handled. Duration 3 ms by bot id=8432313674
+2025-11-07 17:38:24,286 [INFO] aiogram.event: Update id=444205040 is handled. Duration 82 ms by bot id=8432313674
+2025-11-07 17:38:36,045 [INFO] aiogram.event: Update id=444205041 is handled. Duration 138 ms by bot id=8432313674
+2025-11-07 17:39:45,298 [INFO] aiogram.event: Update id=444205042 is handled. Duration 72 ms by bot id=8432313674
+2025-11-07 17:40:03,664 [INFO] aiogram.event: Update id=444205043 is handled. Duration 165 ms by bot id=8432313674
+2025-11-07 17:42:22,883 [INFO] root: 🆕 Новый пользователь: 820307174 (sergio_konstanti)
+2025-11-07 17:42:23,074 [INFO] aiogram.event: Update id=444205044 is handled. Duration 191 ms by bot id=8432313674
+2025-11-07 17:42:40,745 [INFO] aiogram.event: Update id=444205045 is handled. Duration 249 ms by bot id=8432313674
+2025-11-07 17:42:51,522 [INFO] aiogram.event: Update id=444205046 is handled. Duration 140 ms by bot id=8432313674
+2025-11-07 17:48:01,684 [INFO] aiogram.event: Update id=444205047 is handled. Duration 183 ms by bot id=8432313674
+2025-11-07 17:48:04,246 [INFO] aiogram.event: Update id=444205048 is handled. Duration 439 ms by bot id=8432313674
+2025-11-07 17:48:09,289 [INFO] aiogram.event: Update id=444205049 is handled. Duration 133 ms by bot id=8432313674
+2025-11-07 18:01:48,022 [INFO] aiogram.event: Update id=444205050 is handled. Duration 238 ms by bot id=8432313674
+2025-11-07 18:03:49,929 [INFO] aiogram.event: Update id=444205051 is handled. Duration 356 ms by bot id=8432313674
+2025-11-07 18:11:49,837 [INFO] aiogram.event: Update id=444205052 is handled. Duration 77 ms by bot id=8432313674
+2025-11-07 18:11:51,773 [INFO] aiogram.event: Update id=444205053 is handled. Duration 159 ms by bot id=8432313674
+2025-11-07 18:11:56,800 [INFO] aiogram.event: Update id=444205054 is handled. Duration 77 ms by bot id=8432313674
+2025-11-07 18:11:58,658 [INFO] aiogram.event: Update id=444205055 is handled. Duration 696 ms by bot id=8432313674
+2025-11-07 18:17:05,498 [INFO] aiogram.event: Update id=444205056 is handled. Duration 240 ms by bot id=8432313674
+2025-11-07 18:17:08,950 [INFO] aiogram.event: Update id=444205057 is handled. Duration 139 ms by bot id=8432313674
+2025-11-07 18:17:11,807 [INFO] aiogram.event: Update id=444205058 is handled. Duration 71 ms by bot id=8432313674
+2025-11-07 18:17:17,525 [INFO] aiogram.event: Update id=444205059 is handled. Duration 85 ms by bot id=8432313674
+2025-11-07 18:24:06,499 [INFO] aiogram.event: Update id=444205060 is handled. Duration 82 ms by bot id=8432313674
+2025-11-07 18:24:09,783 [INFO] aiogram.event: Update id=444205061 is handled. Duration 127 ms by bot id=8432313674
+2025-11-07 18:25:52,593 [INFO] aiogram.event: Update id=444205062 is handled. Duration 129 ms by bot id=8432313674
+2025-11-07 18:40:30,021 [INFO] aiogram.event: Update id=444205063 is handled. Duration 216 ms by bot id=8432313674
+2025-11-07 18:57:38,669 [INFO] aiogram.event: Update id=444205064 is handled. Duration 201 ms by bot id=8432313674
+2025-11-07 19:07:58,356 [INFO] aiogram.event: Update id=444205065 is handled. Duration 181 ms by bot id=8432313674
+2025-11-07 19:08:04,646 [INFO] aiogram.event: Update id=444205066 is handled. Duration 168 ms by bot id=8432313674
+2025-11-07 19:23:05,462 [INFO] aiogram.event: Update id=444205067 is handled. Duration 102 ms by bot id=8432313674
+2025-11-07 20:43:53,835 [INFO] aiogram.event: Update id=444205068 is handled. Duration 201 ms by bot id=8432313674
+2025-11-07 21:04:39,618 [INFO] aiogram.event: Update id=444205069 is handled. Duration 171 ms by bot id=8432313674
+2025-11-07 21:15:48,469 [INFO] aiogram.event: Update id=444205070 is handled. Duration 157 ms by bot id=8432313674
+2025-11-07 21:15:50,118 [INFO] aiogram.event: Update id=444205071 is handled. Duration 500 ms by bot id=8432313674
+2025-11-07 21:15:53,970 [INFO] aiogram.event: Update id=444205072 is handled. Duration 86 ms by bot id=8432313674
+2025-11-07 23:36:00,763 [INFO] aiogram.event: Update id=444205073 is handled. Duration 220 ms by bot id=8432313674
+2025-11-07 23:52:56,513 [INFO] aiogram.event: Update id=444205074 is handled. Duration 185 ms by bot id=8432313674
+2025-11-07 23:52:58,118 [INFO] aiogram.event: Update id=444205075 is handled. Duration 476 ms by bot id=8432313674
+2025-11-07 23:53:00,173 [INFO] aiogram.event: Update id=444205076 is handled. Duration 127 ms by bot id=8432313674
+2025-11-07 23:53:02,841 [INFO] aiogram.event: Update id=444205077 is handled. Duration 594 ms by bot id=8432313674
+2025-11-07 23:53:05,426 [INFO] aiogram.event: Update id=444205078 is handled. Duration 212 ms by bot id=8432313674
+2025-11-08 00:22:14,574 [INFO] aiogram.event: Update id=444205079 is handled. Duration 190 ms by bot id=8432313674
+2025-11-08 10:00:00,003 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 44, in daily_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 29, in check_races
+    date = datetime.strptime(race["date"], "%Y-%m-%d").date()
+                             ~~~~^^^^^^^^
+KeyError: 'date'
+2025-11-08 10:42:12,014 [INFO] aiogram.event: Update id=444205080 is handled. Duration 165 ms by bot id=8432313674
+2025-11-08 21:32:21,453 [INFO] aiogram.event: Update id=444205081 is handled. Duration 177 ms by bot id=8432313674
+2025-11-09 09:46:51,507 [INFO] aiogram.event: Update id=444205082 is handled. Duration 250 ms by bot id=8432313674
+2025-11-09 10:00:00,039 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 44, in daily_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 29, in check_races
+    date = datetime.strptime(race["date"], "%Y-%m-%d").date()
+                             ~~~~^^^^^^^^
+KeyError: 'date'
+2025-11-09 10:22:17,890 [INFO] aiogram.event: Update id=444205083 is handled. Duration 210 ms by bot id=8432313674
+2025-11-09 10:22:19,477 [INFO] aiogram.event: Update id=444205084 is handled. Duration 460 ms by bot id=8432313674
+2025-11-09 14:01:10,196 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 14:01:10,202 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 14:01:10,203 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 14:01:10,457 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'

@@ -1,0 +1,69 @@
+2026-01-21 14:06:36,383 [INFO] __main__: 🚀 Логирование инициализировано
+2026-01-21 14:06:36,385 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-01-21 14:06:36,392 [INFO] root: 🚀 Запуск Race Event Bot...
+2026-01-21 14:06:37,006 [DEBUG] tzlocal: Looking up time zone info from registry
+2026-01-21 14:06:37,010 [INFO] root: Reminders set up (cron: */5 * * * *)
+2026-01-21 14:06:37,394 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2026-01-21 14:06:37,401 [INFO] aiogram.dispatcher: Start polling
+2026-01-21 14:06:37,523 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2026-01-21 14:19:04,943 [INFO] __main__: 🚀 Логирование инициализировано
+2026-01-21 14:19:04,946 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-01-21 14:19:04,950 [INFO] root: 🚀 Запуск Race Event Bot...
+2026-01-21 14:19:05,539 [DEBUG] tzlocal: Looking up time zone info from registry
+2026-01-21 14:19:05,540 [INFO] root: Reminders set up (cron: */5 * * * *)
+2026-01-21 14:19:05,954 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2026-01-21 14:19:05,957 [INFO] aiogram.dispatcher: Start polling
+2026-01-21 14:19:06,015 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2026-01-21 14:19:06,764 [INFO] aiogram.event: Update id=444205468 is handled. Duration 600 ms by bot id=8432313674
+2026-01-21 14:19:07,218 [INFO] aiogram.event: Update id=444205466 is handled. Duration 1069 ms by bot id=8432313674
+2026-01-21 14:19:07,219 [INFO] aiogram.event: Update id=444205467 is handled. Duration 1061 ms by bot id=8432313674
+2026-01-21 14:19:18,352 [INFO] aiogram.event: Update id=444205469 is handled. Duration 92 ms by bot id=8432313674
+2026-01-21 14:24:34,948 [INFO] __main__: 🚀 Логирование инициализировано
+2026-01-21 14:24:34,960 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-01-21 14:24:34,964 [INFO] root: 🚀 Запуск Race Event Bot...
+2026-01-21 14:24:35,526 [DEBUG] tzlocal: Looking up time zone info from registry
+2026-01-21 14:24:35,529 [INFO] root: Reminders set up (cron: */5 * * * *)
+2026-01-21 14:24:35,870 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2026-01-21 14:24:35,882 [INFO] aiogram.dispatcher: Start polling
+2026-01-21 14:24:35,936 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2026-01-21 14:25:14,590 [INFO] aiogram.event: Update id=444205470 is handled. Duration 218 ms by bot id=8432313674
+2026-01-21 14:35:27,802 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-21 14:35:27,803 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2026-01-21 14:35:38,984 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2026-01-21 14:42:31,275 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-21 14:42:31,276 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2026-01-21 14:42:42,443 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2026-01-21 14:57:12,817 [INFO] __main__: 🚀 Логирование инициализировано
+2026-01-21 14:57:12,837 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-01-21 14:57:12,845 [INFO] root: 🚀 Запуск Race Event Bot...
+2026-01-21 14:57:13,346 [DEBUG] tzlocal: Looking up time zone info from registry
+2026-01-21 14:57:13,353 [INFO] root: Reminders set up (cron: */5 * * * *)
+2026-01-21 14:57:13,689 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2026-01-21 14:57:13,692 [INFO] aiogram.dispatcher: Start polling
+2026-01-21 14:57:13,751 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2026-01-21 15:01:41,705 [INFO] aiogram.event: Update id=444205471 is handled. Duration 536 ms by bot id=8432313674
+2026-01-21 15:02:00,552 [INFO] aiogram.event: Update id=444205472 is handled. Duration 220 ms by bot id=8432313674
+2026-01-21 15:09:36,090 [INFO] __main__: 🚀 Логирование инициализировано
+2026-01-21 15:09:36,093 [DEBUG] asyncio: Using proactor: IocpProactor
+2026-01-21 15:09:36,097 [INFO] root: 🚀 Запуск Race Event Bot...
+2026-01-21 15:09:36,650 [DEBUG] tzlocal: Looking up time zone info from registry
+2026-01-21 15:09:36,654 [INFO] root: Reminders set up (cron: */5 * * * *)
+2026-01-21 15:09:36,961 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2026-01-21 15:09:36,994 [INFO] aiogram.dispatcher: Start polling
+2026-01-21 15:09:37,203 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2026-01-21 15:11:57,002 [INFO] aiogram.event: Update id=444205473 is handled. Duration 197 ms by bot id=8432313674
+2026-01-21 16:55:20,758 [INFO] aiogram.event: Update id=444205474 is handled. Duration 200 ms by bot id=8432313674
+2026-01-22 17:28:59,721 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-01-22 17:28:59,740 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2026-01-22 17:29:10,904 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 8432313674)
+2026-01-23 04:10:41,325 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'GetUpdates'. Retry in 5 seconds.
+Original description: Too Many Requests: retry after 5
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-01-23 04:10:41,340 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2026-01-23 04:10:44,812 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-01-23 04:10:44,813 [WARNING] aiogram.dispatcher: Sleep for 1.286341 seconds and try again... (tryings = 1, bot id = 8432313674)
+2026-01-23 04:10:46,146 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-01-23 04:10:46,146 [WARNING] aiogram.dispatcher: Sleep for 1.647897 seconds and try again... (tryings = 2, bot id = 8432313674)
+2026-01-23 04:10:47,850 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-01-23 04:10:47,852 [WARNING] aiogram.dispatcher: Sleep for 2.227227 seconds and try again... (tryings = 3, bot id = 8432313674)
+2026-01-23 04:11:12,981 [INFO] aiogram.dispatcher: Connection established (tryings = 4, bot id = 8432313674)

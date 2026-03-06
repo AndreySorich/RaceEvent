@@ -1,0 +1,635 @@
+2025-11-09 14:01:27,471 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 14:01:27,473 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 14:01:27,476 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 14:01:27,917 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 14:01:28,290 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 14:01:28,292 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 14:01:28,350 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 14:02:13,609 [INFO] aiogram.event: Update id=444205085 is handled. Duration 230 ms by bot id=8432313674
+2025-11-09 14:02:18,431 [INFO] aiogram.event: Update id=444205086 is handled. Duration 572 ms by bot id=8432313674
+2025-11-09 14:02:23,490 [INFO] aiogram.event: Update id=444205087 is handled. Duration 167 ms by bot id=8432313674
+2025-11-09 14:02:27,394 [INFO] aiogram.event: Update id=444205088 is handled. Duration 65 ms by bot id=8432313674
+2025-11-09 14:02:29,673 [INFO] aiogram.event: Update id=444205089 is handled. Duration 141 ms by bot id=8432313674
+2025-11-09 14:05:37,491 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 14:05:37,495 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 14:05:37,496 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 14:05:37,766 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 14:05:48,367 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 14:05:48,368 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 14:05:48,371 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 14:05:48,768 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 14:05:49,055 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 14:05:49,055 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 14:05:49,100 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 14:07:24,110 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 14:07:24,113 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 14:07:24,119 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 14:07:24,372 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 14:07:35,351 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 14:07:35,352 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 14:07:35,354 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 14:07:35,857 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 14:07:35,866 [INFO] root: ✅ Напоминания запущены: проверка каждые 60 минут
+2025-11-09 14:07:36,054 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 14:07:36,055 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 14:07:36,101 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 14:07:43,527 [INFO] aiogram.event: Update id=444205090 is handled. Duration 195 ms by bot id=8432313674
+2025-11-09 14:07:49,246 [INFO] aiogram.event: Update id=444205091 is handled. Duration 1088 ms by bot id=8432313674
+2025-11-09 15:00:00,015 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 15:00
+2025-11-09 15:00:00,030 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 15:00:00,031 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 15:00:00,032 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 16:00:00,008 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 16:00
+2025-11-09 16:00:00,031 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 16:00:00,033 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 16:00:00,037 [WARNING] root: ⚠️ Ошибка разбора даты гонки Без названия: time data 'None 00:00' does not match format '%d.%m.%Y %H:%M'
+2025-11-09 16:45:27,496 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 16:45:27,500 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 16:45:27,500 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 16:45:27,769 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 16:46:44,747 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 16:46:44,749 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 16:46:44,752 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 16:46:45,273 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 16:46:45,296 [INFO] root: ✅ Напоминания запущены: проверка каждые 60 минут
+2025-11-09 16:46:45,614 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 16:46:45,615 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 16:46:45,668 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 17:00:00,008 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 17:00
+2025-11-09 17:00:00,026 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 17:00:00,028 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 17:00:00,029 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 18:00:00,028 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 18:00
+2025-11-09 18:00:00,059 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 18:00:00,062 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 18:00:00,062 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 19:00:00,006 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 19:00
+2025-11-09 19:00:00,008 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 19:00:00,010 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 19:00:00,010 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:00:00,003 [INFO] root: 
+🔍 Проверка гонок: 09.11.2025 20:00
+2025-11-09 20:00:00,005 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:00:00,006 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:00:00,021 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:22:18,972 [INFO] aiogram.event: Update id=444205092 is handled. Duration 205 ms by bot id=8432313674
+2025-11-09 20:22:21,649 [INFO] aiogram.event: Update id=444205093 is handled. Duration 1144 ms by bot id=8432313674
+2025-11-09 20:22:24,060 [INFO] aiogram.event: Update id=444205094 is handled. Duration 97 ms by bot id=8432313674
+2025-11-09 20:22:27,475 [INFO] aiogram.event: Update id=444205095 is handled. Duration 73 ms by bot id=8432313674
+2025-11-09 20:22:29,112 [INFO] aiogram.event: Update id=444205096 is handled. Duration 153 ms by bot id=8432313674
+2025-11-09 20:37:01,478 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:37:01,483 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:37:01,484 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:37:01,762 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:37:13,790 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:37:13,800 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:37:13,804 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:37:14,390 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:37:14,402 [INFO] root: ✅ Напоминания запущены: проверка каждые 60 минут
+2025-11-09 20:37:14,663 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:37:14,664 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:37:14,719 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:40:13,528 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:40:13,555 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:40:13,557 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:40:13,817 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:40:26,110 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:40:26,113 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:40:26,117 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:40:26,748 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:40:26,760 [INFO] root: ✅ Напоминания запущены (проверка каждые 10 минут)
+2025-11-09 20:40:27,110 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:40:27,112 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:40:27,163 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:43:12,004 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:43:12,009 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:43:12,010 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:43:12,269 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:43:20,804 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:43:20,806 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:43:20,809 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:43:21,371 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:43:21,380 [INFO] root: ✅ Напоминания запущены (проверка каждые 10 минут)
+2025-11-09 20:43:21,628 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:43:21,629 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:43:21,683 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:44:00,007 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:44:00,009 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:44:00,010 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:45:00,016 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:45:00,044 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:45:00,046 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:45:51,469 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:45:51,484 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:45:51,488 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:45:51,743 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:46:02,588 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:46:02,590 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:46:02,595 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:46:03,095 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:46:03,118 [INFO] root: ✅ Напоминания запущены (проверка каждые 10 минут)
+2025-11-09 20:46:03,369 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:46:03,370 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:46:03,432 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:47:00,010 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:47:00,028 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:47:00,031 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:48:00,012 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:48:00,044 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:48:00,049 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:49:00,002 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:49:00,003 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:49:00,039 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:50:00,011 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:50:00,012 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:50:00,013 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:51:00,012 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:51:00,014 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:51:00,015 [WARNING] root: ⚠️ Пропущена гонка 'Без названия' — отсутствует поле 'date'.
+2025-11-09 20:51:48,535 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:51:48,537 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:51:48,537 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:51:48,792 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:54:12,254 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:54:12,255 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:54:12,257 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:54:12,694 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:54:12,701 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 20:54:13,015 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:54:13,016 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:54:13,067 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:55:00,007 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 78, in race_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 28, in check_races
+    races_by_id = {str(r["id"]): r for r in all_races}
+                       ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-09 20:56:00,004 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 78, in race_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 28, in check_races
+    races_by_id = {str(r["id"]): r for r in all_races}
+                       ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-09 20:57:00,005 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 78, in race_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 28, in check_races
+    races_by_id = {str(r["id"]): r for r in all_races}
+                       ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-09 20:57:27,928 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:57:27,930 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:57:27,931 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:57:28,189 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:57:48,655 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:57:48,656 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:57:48,658 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:57:49,096 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:57:49,108 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 20:57:49,316 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:57:49,317 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:57:49,370 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:58:00,015 [ERROR] asyncio: Exception in callback Cron.set_result()
+handle: <Handle Cron.set_result()>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 119, in set_result
+    raise result
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiocron\__init__.py", line 24, in wrapper
+    result = await result
+             ^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 89, in race_reminder
+    await check_races(bot)
+  File "C:\BOT\race_event_bot_v0.10\scheduler\reminders.py", line 29, in check_races
+    races_by_id = {str(v["id"]): v for v in all_races.values()}
+                       ~^^^^^^
+TypeError: list indices must be integers or slices, not str
+2025-11-09 20:58:50,286 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 20:58:50,288 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 20:58:50,288 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 20:58:50,552 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 20:59:03,238 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 20:59:03,240 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 20:59:03,244 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 20:59:03,726 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 20:59:03,740 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 20:59:03,944 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 20:59:03,945 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 20:59:03,998 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:01:05,650 [INFO] aiogram.event: Update id=444205097 is handled. Duration 531 ms by bot id=8432313674
+2025-11-09 21:01:09,048 [INFO] aiogram.event: Update id=444205098 is handled. Duration 590 ms by bot id=8432313674
+2025-11-09 21:03:01,468 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:03:01,488 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:03:01,493 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:03:01,748 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:03:11,729 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:03:11,730 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:03:11,732 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:03:12,295 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:03:12,307 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 21:03:12,600 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:03:12,603 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:03:12,658 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:04:00,008 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:04:00
+2025-11-09 21:05:00,026 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:05:00
+2025-11-09 21:06:00,030 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:06:00
+2025-11-09 21:07:00,017 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:07:00
+2025-11-09 21:08:00,011 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:08:00
+2025-11-09 21:08:00,264 [INFO] root: ✅ Напоминание за 2 минуты отправлено пользователю 463194607 (Тест напоминания)
+2025-11-09 21:08:00,383 [INFO] root: ✅ Напоминание за 2 минуты отправлено пользователю 259810935 (Тест напоминания)
+2025-11-09 21:09:00,050 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:09:00
+2025-11-09 21:10:00,008 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:10:00
+2025-11-09 21:10:39,817 [INFO] aiogram.event: Update id=444205099 is handled. Duration 174 ms by bot id=8432313674
+2025-11-09 21:11:00,006 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:11:00
+2025-11-09 21:12:00,020 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:12:00
+2025-11-09 21:12:34,566 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:12:34,570 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:12:34,574 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:12:34,830 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:12:43,951 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:12:43,953 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:12:43,955 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:12:44,409 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:12:44,416 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 21:12:44,709 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:12:44,711 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:12:44,769 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:13:00,012 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:13:00
+2025-11-09 21:14:00,023 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:14:00
+2025-11-09 21:14:54,767 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:14:54,769 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:14:54,769 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:14:55,035 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:15:08,393 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:15:08,395 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:15:08,398 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:15:08,883 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:15:08,894 [INFO] root: ✅ Напоминания запущены (проверка каждую минуту)
+2025-11-09 21:15:09,139 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:15:09,140 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:15:09,197 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:19:08,826 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:19:08,831 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:19:08,832 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:19:09,089 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:19:55,094 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:19:55,097 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:19:55,099 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:19:55,597 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:19:55,607 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-09 21:19:55,823 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:19:55,824 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:19:55,876 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:20:00,011 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:20:00
+2025-11-09 21:22:01,190 [INFO] aiogram.event: Update id=444205100 is handled. Duration 275 ms by bot id=8432313674
+2025-11-09 21:22:06,354 [INFO] aiogram.event: Update id=444205101 is handled. Duration 1216 ms by bot id=8432313674
+2025-11-09 21:30:39,477 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:30:39,484 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:30:39,488 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:30:40,057 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:30:40,069 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-09 21:30:40,303 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:30:40,306 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:30:40,389 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:36:42,349 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:36:42,355 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:36:42,355 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:36:42,618 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:36:53,999 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:36:54,002 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:36:54,008 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:36:54,527 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:36:54,537 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-09 21:36:54,878 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:36:54,879 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:36:54,931 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:40:00,071 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:40:00
+2025-11-09 21:40:00,491 [INFO] root: ✅ Напоминание 2h отправлено пользователю 463194607 (Тест напоминания)
+2025-11-09 21:40:00,792 [INFO] root: ✅ Напоминание 2h отправлено пользователю 259810935 (Тест напоминания)
+2025-11-09 21:45:15,482 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 21:45:15,490 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 21:45:15,492 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 21:45:15,770 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:45:28,131 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 21:45:28,134 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 21:45:28,137 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 21:45:28,575 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 21:45:28,588 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-09 21:45:28,833 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 21:45:28,834 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 21:45:28,889 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 21:50:00,102 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 21:50:00
+2025-11-09 22:00:00,017 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:00:00
+2025-11-09 22:10:00,012 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:10:00
+2025-11-09 22:20:00,066 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:20:00
+2025-11-09 22:30:00,027 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:30:00
+2025-11-09 22:40:00,019 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:40:00
+2025-11-09 22:50:00,035 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 22:50:00
+2025-11-09 22:53:38,438 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-09 22:53:38,441 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-09 22:53:38,443 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-09 22:53:38,731 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 22:53:50,939 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-09 22:53:50,940 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-09 22:53:50,942 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-09 22:53:51,406 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-09 22:53:51,432 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-09 22:53:51,791 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-09 22:53:51,793 [INFO] aiogram.dispatcher: Start polling
+2025-11-09 22:53:51,848 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-09 23:00:00,086 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:00:00
+2025-11-09 23:10:00,026 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:10:00
+2025-11-09 23:20:00,034 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:20:00
+2025-11-09 23:30:00,016 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:30:00
+2025-11-09 23:35:37,394 [INFO] aiogram.event: Update id=444205102 is handled. Duration 222 ms by bot id=8432313674
+2025-11-09 23:40:00,015 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:40:00
+2025-11-09 23:40:00,823 [INFO] root: ✅ Напоминание 2h отправлено пользователю 463194607 (Тест напоминания)
+2025-11-09 23:40:00,999 [INFO] root: ✅ Напоминание 2h отправлено пользователю 259810935 (Тест напоминания)
+2025-11-09 23:50:00,007 [INFO] root: 🔍 Проверка напоминаний: 09.11.2025 23:50:00
+2025-11-10 00:00:00,030 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:00:00
+2025-11-10 00:00:00,040 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:00:00,041 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:10:00,024 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:10:00
+2025-11-10 00:10:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:10:00,038 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:20:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:20:00
+2025-11-10 00:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:20:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:30:00,015 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:30:00
+2025-11-10 00:30:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:30:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:40:00,008 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:40:00
+2025-11-10 00:40:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:40:00,024 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:50:00,009 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 00:50:00
+2025-11-10 00:50:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 00:50:00,041 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:00:00,021 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:00:00
+2025-11-10 01:00:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:00:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:10:00,006 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:10:00
+2025-11-10 01:10:00,017 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:10:00,021 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:20:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:20:00
+2025-11-10 01:20:00,013 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:30:00,009 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:30:00
+2025-11-10 01:30:00,013 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:30:00,016 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:40:00,008 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:40:00
+2025-11-10 01:40:00,014 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:40:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:50:00,008 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 01:50:00
+2025-11-10 01:50:00,016 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 01:50:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:00:00,017 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:00:00
+2025-11-10 02:00:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:00:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:10:00,018 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:10:00
+2025-11-10 02:10:00,024 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:10:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:20:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:20:00
+2025-11-10 02:20:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:20:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:30:00,030 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:30:00
+2025-11-10 02:30:00,053 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:30:00,054 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:40:00,014 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:40:00
+2025-11-10 02:40:00,021 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:40:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:50:00,015 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 02:50:00
+2025-11-10 02:50:00,018 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 02:50:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:00:00,043 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:00:00
+2025-11-10 03:00:00,104 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:00:00,106 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:10:00,018 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:10:00
+2025-11-10 03:10:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:10:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:20:00,023 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:20:00
+2025-11-10 03:20:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:20:00,046 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:30:00,010 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:30:00
+2025-11-10 03:30:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:40:00,015 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:40:00
+2025-11-10 03:40:00,018 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:40:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:50:00,015 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 03:50:00
+2025-11-10 03:50:00,017 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 03:50:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:00:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:00:00
+2025-11-10 04:00:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:00:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:10:00,016 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:10:00
+2025-11-10 04:10:00,046 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:10:00,049 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:20:00,061 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:20:00
+2025-11-10 04:20:00,063 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:20:00,064 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:30:00,070 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:30:00
+2025-11-10 04:30:00,074 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:30:00,074 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:40:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:40:00
+2025-11-10 04:40:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:40:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:50:00,013 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 04:50:00
+2025-11-10 04:50:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 04:50:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:00:00,029 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:00:00
+2025-11-10 05:00:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:00:00,047 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:10:00,012 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:10:00
+2025-11-10 05:10:00,021 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:10:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:20:00,027 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:20:00
+2025-11-10 05:20:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:20:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:30:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:30:00
+2025-11-10 05:30:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:40:00,038 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:40:00
+2025-11-10 05:40:00,048 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:40:00,049 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:50:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 05:50:00
+2025-11-10 05:50:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 05:50:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:00:00,012 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:00:00
+2025-11-10 06:00:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:00:00,024 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:10:00,012 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:10:00
+2025-11-10 06:10:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:10:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:20:00,045 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:20:00
+2025-11-10 06:20:00,046 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:20:00,047 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:30:00,027 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:30:00
+2025-11-10 06:30:00,057 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:30:00,061 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:40:00,061 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:40:00
+2025-11-10 06:40:00,063 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:40:00,067 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:50:00,034 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 06:50:00
+2025-11-10 06:50:00,040 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 06:50:00,049 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:00:00,032 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:00:00
+2025-11-10 07:00:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:00:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:10:00,033 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:10:00
+2025-11-10 07:10:00,035 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:10:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:20:00,015 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:20:00
+2025-11-10 07:20:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:20:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:30:00,052 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:30:00
+2025-11-10 07:30:00,062 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:30:00,066 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:40:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:40:00
+2025-11-10 07:40:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:40:00,035 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:50:00,048 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 07:50:00
+2025-11-10 07:50:00,051 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 07:50:00,052 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:00:00,023 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:00:00
+2025-11-10 08:00:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:00:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:10:00,009 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:10:00
+2025-11-10 08:10:00,013 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:10:00,015 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:20:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:20:00
+2025-11-10 08:20:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:20:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:30:00,017 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:30:00
+2025-11-10 08:30:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:40:00,017 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:40:00
+2025-11-10 08:40:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:40:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:50:00,051 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 08:50:00
+2025-11-10 08:50:00,054 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 08:50:00,054 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:00:00,031 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:00:00
+2025-11-10 09:00:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:00:00,047 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:10:00,017 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:10:00
+2025-11-10 09:10:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:10:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:20:00,032 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:20:00
+2025-11-10 09:20:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:20:00,068 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:30:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:30:00
+2025-11-10 09:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:30:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:40:00,050 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:40:00
+2025-11-10 09:40:00,054 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:40:00,056 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:50:00,029 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 09:50:00
+2025-11-10 09:50:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 09:50:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:00:00,023 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:00:00
+2025-11-10 10:00:00,038 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:00:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:10:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:10:00
+2025-11-10 10:10:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:10:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:20:00,027 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:20:00
+2025-11-10 10:20:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:20:00,038 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:30:00,082 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:30:00
+2025-11-10 10:30:00,097 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:30:00,098 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:40:00,033 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:40:00
+2025-11-10 10:40:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:40:00,107 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:50:00,092 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 10:50:00
+2025-11-10 10:50:00,093 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 10:50:00,094 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:00:00,045 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:00:00
+2025-11-10 11:00:00,052 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:00:00,053 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:10:00,042 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:10:00
+2025-11-10 11:10:00,048 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:10:00,051 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:20:00,057 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:20:00
+2025-11-10 11:20:00,079 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:20:00,087 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:30:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:30:00
+2025-11-10 11:30:00,040 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:30:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:40:00,044 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:40:00
+2025-11-10 11:40:00,050 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:40:00,055 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:50:00,016 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 11:50:00
+2025-11-10 11:50:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 11:50:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:00:00,016 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:00:00
+2025-11-10 12:00:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:00:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:10:00,030 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:10:00
+2025-11-10 12:10:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:10:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:20:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:20:00
+2025-11-10 12:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:20:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:30:00,024 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:30:00
+2025-11-10 12:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:30:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:40:00,021 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:40:00
+2025-11-10 12:40:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:40:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:45:18,412 [INFO] aiogram.event: Update id=444205103 is handled. Duration 225 ms by bot id=8432313674
+2025-11-10 12:50:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 12:50:00
+2025-11-10 12:50:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 12:50:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:00:00,033 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 13:00:00
+2025-11-10 13:00:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:00:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:10:00,002 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 13:10:00
+2025-11-10 13:10:00,003 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:10:00,004 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:20:00,019 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 13:20:00
+2025-11-10 13:20:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:20:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 13:27:01,806 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-10 13:27:01,811 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-10 13:27:01,814 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-10 13:27:02,098 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'

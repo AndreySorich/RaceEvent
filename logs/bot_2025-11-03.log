@@ -1,0 +1,92 @@
+2025-11-03 22:12:24,931 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:12:35,153 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:12:35,160 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:12:35,568 [WARNING] __main__: ⚙️ Проверка записи в лог
+2025-11-03 22:12:35,569 [ERROR] root: 🔥 Ошибка-тест
+2025-11-03 22:12:35,569 [INFO] aiogram.dispatcher: Start polling
+2025-11-03 22:12:35,800 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-03 22:12:38,010 [INFO] aiogram.event: Update id=444204401 is handled. Duration 377 ms by bot id=8432313674
+2025-11-03 22:12:39,236 [INFO] aiogram.event: Update id=444204402 is handled. Duration 98 ms by bot id=8432313674
+2025-11-03 22:12:41,783 [INFO] aiogram.event: Update id=444204403 is handled. Duration 354 ms by bot id=8432313674
+2025-11-03 22:12:43,682 [INFO] aiogram.event: Update id=444204404 is handled. Duration 318 ms by bot id=8432313674
+2025-11-03 22:14:58,744 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-03 22:14:58,766 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-03 22:14:58,779 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-03 22:14:59,051 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-03 22:15:02,668 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:15:36,735 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:16:39,486 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:16:39,488 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:16:39,490 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:19:41,378 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:19:41,382 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:19:41,387 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:20:58,780 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:20:58,784 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:20:58,789 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:23:33,416 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:23:33,419 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:23:33,423 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:23:33,870 [WARNING] __main__: ⚙️ Проверка записи в лог
+2025-11-03 22:23:33,872 [ERROR] root: 🔥 Ошибка-тест
+2025-11-03 22:23:33,873 [INFO] aiogram.dispatcher: Start polling
+2025-11-03 22:23:34,215 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-03 22:23:57,716 [INFO] aiogram.event: Update id=444204405 is handled. Duration 258 ms by bot id=8432313674
+2025-11-03 22:23:59,328 [INFO] aiogram.event: Update id=444204406 is handled. Duration 60 ms by bot id=8432313674
+2025-11-03 22:24:01,079 [INFO] aiogram.event: Update id=444204407 is handled. Duration 184 ms by bot id=8432313674
+2025-11-03 22:24:02,879 [INFO] aiogram.event: Update id=444204408 is handled. Duration 406 ms by bot id=8432313674
+2025-11-03 22:24:04,447 [INFO] aiogram.event: Update id=444204409 is handled. Duration 361 ms by bot id=8432313674
+2025-11-03 22:24:09,363 [INFO] aiogram.event: Update id=444204410 is handled. Duration 284 ms by bot id=8432313674
+2025-11-03 22:24:11,113 [INFO] aiogram.event: Update id=444204411 is handled. Duration 334 ms by bot id=8432313674
+2025-11-03 22:24:12,941 [INFO] aiogram.event: Update id=444204412 is handled. Duration 60 ms by bot id=8432313674
+2025-11-03 22:24:16,058 [INFO] aiogram.event: Update id=444204413 is handled. Duration 104 ms by bot id=8432313674
+2025-11-03 22:24:18,958 [INFO] aiogram.event: Update id=444204414 is handled. Duration 435 ms by bot id=8432313674
+2025-11-03 22:24:54,124 [INFO] aiogram.event: Update id=444204415 is handled. Duration 268 ms by bot id=8432313674
+2025-11-03 22:24:57,057 [INFO] aiogram.event: Update id=444204416 is handled. Duration 593 ms by bot id=8432313674
+2025-11-03 22:25:09,412 [INFO] aiogram.event: Update id=444204417 is handled. Duration 289 ms by bot id=8432313674
+2025-11-03 22:25:10,589 [INFO] aiogram.event: Update id=444204418 is handled. Duration 408 ms by bot id=8432313674
+2025-11-03 22:25:11,530 [INFO] aiogram.event: Update id=444204419 is handled. Duration 220 ms by bot id=8432313674
+2025-11-03 22:25:12,525 [INFO] aiogram.event: Update id=444204420 is handled. Duration 247 ms by bot id=8432313674
+2025-11-03 22:25:13,693 [INFO] aiogram.event: Update id=444204421 is handled. Duration 426 ms by bot id=8432313674
+2025-11-03 22:25:15,073 [INFO] aiogram.event: Update id=444204422 is handled. Duration 145 ms by bot id=8432313674
+2025-11-03 22:25:17,571 [INFO] aiogram.event: Update id=444204423 is handled. Duration 206 ms by bot id=8432313674
+2025-11-03 22:25:19,533 [INFO] aiogram.event: Update id=444204424 is handled. Duration 210 ms by bot id=8432313674
+2025-11-03 22:25:21,640 [INFO] aiogram.event: Update id=444204425 is handled. Duration 360 ms by bot id=8432313674
+2025-11-03 22:25:23,405 [INFO] aiogram.event: Update id=444204426 is handled. Duration 303 ms by bot id=8432313674
+2025-11-03 22:25:41,084 [INFO] aiogram.event: Update id=444204427 is handled. Duration 349 ms by bot id=8432313674
+2025-11-03 22:25:44,412 [INFO] aiogram.event: Update id=444204428 is handled. Duration 124 ms by bot id=8432313674
+2025-11-03 22:25:45,513 [INFO] aiogram.event: Update id=444204429 is handled. Duration 127 ms by bot id=8432313674
+2025-11-03 22:25:46,869 [INFO] aiogram.event: Update id=444204430 is handled. Duration 284 ms by bot id=8432313674
+2025-11-03 22:25:47,992 [INFO] aiogram.event: Update id=444204431 is handled. Duration 162 ms by bot id=8432313674
+2025-11-03 22:25:49,473 [INFO] aiogram.event: Update id=444204432 is handled. Duration 173 ms by bot id=8432313674
+2025-11-03 22:51:10,573 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-03 22:51:10,575 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-03 22:51:10,581 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-03 22:51:11,106 [WARNING] __main__: ⚙️ Проверка записи в лог
+2025-11-03 22:51:11,107 [ERROR] root: 🔥 Ошибка-тест
+2025-11-03 22:51:11,108 [INFO] aiogram.dispatcher: Start polling
+2025-11-03 22:51:11,661 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-03 22:51:11,977 [INFO] aiogram.event: Update id=444204433 is handled. Duration 252 ms by bot id=8432313674
+2025-11-03 22:51:33,117 [INFO] aiogram.event: Update id=444204434 is handled. Duration 161 ms by bot id=8432313674
+2025-11-03 22:51:35,080 [INFO] aiogram.event: Update id=444204435 is handled. Duration 357 ms by bot id=8432313674
+2025-11-03 22:51:38,553 [INFO] aiogram.event: Update id=444204436 is handled. Duration 192 ms by bot id=8432313674
+2025-11-03 22:51:41,766 [INFO] aiogram.event: Update id=444204437 is handled. Duration 290 ms by bot id=8432313674
+2025-11-03 22:51:44,493 [INFO] aiogram.event: Update id=444204438 is handled. Duration 406 ms by bot id=8432313674
+2025-11-03 22:51:53,108 [INFO] aiogram.event: Update id=444204439 is handled. Duration 214 ms by bot id=8432313674
+2025-11-03 22:52:06,571 [INFO] aiogram.event: Update id=444204440 is handled. Duration 12028 ms by bot id=8432313674
+2025-11-03 22:52:06,708 [INFO] aiogram.event: Update id=444204441 is handled. Duration 267 ms by bot id=8432313674
+2025-11-03 22:52:06,819 [INFO] aiogram.event: Update id=444204442 is handled. Duration 145 ms by bot id=8432313674
+2025-11-03 22:52:08,942 [INFO] aiogram.event: Update id=444204443 is handled. Duration 296 ms by bot id=8432313674
+2025-11-04 01:27:52,561 [INFO] aiogram.event: Update id=444204444 is handled. Duration 176 ms by bot id=8432313674
+2025-11-04 01:27:58,481 [INFO] aiogram.event: Update id=444204445 is handled. Duration 210 ms by bot id=8432313674
+2025-11-04 11:02:43,970 [INFO] aiogram.event: Update id=444204446 is handled. Duration 755 ms by bot id=8432313674
+2025-11-04 11:02:48,528 [INFO] aiogram.event: Update id=444204447 is handled. Duration 442 ms by bot id=8432313674
+2025-11-04 11:02:51,044 [INFO] aiogram.event: Update id=444204448 is handled. Duration 184 ms by bot id=8432313674
+2025-11-04 11:02:53,214 [INFO] aiogram.event: Update id=444204449 is handled. Duration 64 ms by bot id=8432313674
+2025-11-04 11:02:57,556 [INFO] aiogram.event: Update id=444204450 is handled. Duration 126 ms by bot id=8432313674
+2025-11-04 11:02:59,674 [INFO] aiogram.event: Update id=444204451 is handled. Duration 166 ms by bot id=8432313674
+2025-11-04 11:03:02,825 [INFO] aiogram.event: Update id=444204452 is handled. Duration 205 ms by bot id=8432313674
+2025-11-04 11:16:35,881 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-04 11:16:35,889 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-04 11:16:35,898 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-04 11:16:36,162 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'

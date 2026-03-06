@@ -1,0 +1,1026 @@
+2025-11-16 13:36:47,407 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:36:47,410 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:36:47,416 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:36:47,935 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:36:47,980 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-16 13:36:48,359 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:36:48,362 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:36:48,425 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:37:08,846 [INFO] aiogram.event: Update id=444205273 is handled. Duration 169 ms by bot id=8432313674
+2025-11-16 13:37:10,338 [INFO] aiogram.event: Update id=444205274 is handled. Duration 420 ms by bot id=8432313674
+2025-11-16 13:37:15,161 [INFO] aiogram.event: Update id=444205275 is handled. Duration 78 ms by bot id=8432313674
+2025-11-16 13:37:19,689 [INFO] aiogram.event: Update id=444205276 is handled. Duration 820 ms by bot id=8432313674
+2025-11-16 13:37:21,996 [INFO] aiogram.event: Update id=444205277 is handled. Duration 477 ms by bot id=8432313674
+2025-11-16 13:38:11,649 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:38:11,653 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:38:11,657 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:38:11,924 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:38:23,644 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:38:23,646 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:38:23,648 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:38:24,275 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:38:24,284 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-16 13:38:24,554 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:38:24,555 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:38:24,602 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:38:51,640 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:38:51,643 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:38:51,646 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:38:51,907 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:39:06,440 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:39:06,448 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:39:06,477 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:39:07,056 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:39:07,064 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-16 13:39:07,288 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:39:07,289 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:39:07,343 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:39:08,951 [INFO] aiogram.event: Update id=444205278 is handled. Duration 238 ms by bot id=8432313674
+2025-11-16 13:39:10,634 [INFO] aiogram.event: Update id=444205279 is not handled. Duration 90 ms by bot id=8432313674
+2025-11-16 13:39:10,635 [ERROR] aiogram.event: Cause exception while process update id=444205279 by bot id=8432313674
+NameError: name 'road_races' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.13\handlers\start.py", line 281, in show_club_rides
+    for race in road_races:
+                ^^^^^^^^^^
+NameError: name 'road_races' is not defined. Did you mean: 'load_races'?
+2025-11-16 13:39:19,648 [INFO] aiogram.event: Update id=444205280 is not handled. Duration 96 ms by bot id=8432313674
+2025-11-16 13:39:19,651 [ERROR] aiogram.event: Cause exception while process update id=444205280 by bot id=8432313674
+NameError: name 'road_races' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.13\handlers\start.py", line 228, in show_trek_races
+    for race in road_races:
+                ^^^^^^^^^^
+NameError: name 'road_races' is not defined. Did you mean: 'load_races'?
+2025-11-16 13:39:27,972 [INFO] aiogram.event: Update id=444205281 is handled. Duration 409 ms by bot id=8432313674
+2025-11-16 13:39:33,250 [INFO] aiogram.event: Update id=444205282 is handled. Duration 116 ms by bot id=8432313674
+2025-11-16 13:39:35,683 [INFO] aiogram.event: Update id=444205283 is not handled. Duration 175 ms by bot id=8432313674
+2025-11-16 13:39:35,684 [ERROR] aiogram.event: Cause exception while process update id=444205283 by bot id=8432313674
+NameError: name 'road_races' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.13\handlers\start.py", line 281, in show_club_rides
+    for race in road_races:
+                ^^^^^^^^^^
+NameError: name 'road_races' is not defined. Did you mean: 'load_races'?
+2025-11-16 13:40:00,009 [INFO] root: 🔍 Проверка напоминаний: 16.11.2025 13:40:00
+2025-11-16 13:40:00,030 [INFO] root: 📊 Найдено гонок: 9, Пользователей: 6
+2025-11-16 13:40:00,030 [INFO] root: 👤 Пользователь 463194607 подписан на гонки: ['1', '2', '501']
+2025-11-16 13:40:00,031 [INFO] root: 🎯 Гонка Cyclingrace: Садовое кольцо (ID: 1): дней до старта: 187, минут: 270410.0
+2025-11-16 13:40:00,032 [INFO] root:    ⏰ Проверка 5d: diff=15792600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,032 [INFO] root:    ⏰ Проверка 3d: diff=15965400сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,032 [INFO] root:    ⏰ Проверка 1d: diff=16138200сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,033 [INFO] root:    ⏰ Проверка 2h: diff=16217400сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,033 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271850.0
+2025-11-16 13:40:00,033 [INFO] root:    ⏰ Проверка 5d: diff=15879000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,034 [INFO] root:    ⏰ Проверка 3d: diff=16051800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,034 [INFO] root:    ⏰ Проверка 1d: diff=16224600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,034 [INFO] root:    ⏰ Проверка 2h: diff=16303800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,034 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6760.0
+2025-11-16 13:40:00,035 [INFO] root:    ⏰ Проверка 5d: diff=837600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,035 [INFO] root:    ⏰ Проверка 3d: diff=664800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,035 [INFO] root:    ⏰ Проверка 1d: diff=492000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,038 [INFO] root:    ⏰ Проверка 2h: diff=412800сек, should_send=False, already_sent=True
+2025-11-16 13:40:00,038 [INFO] root: 👤 Пользователь 440597082 подписан на гонки: ['2', '3', '4', '5']
+2025-11-16 13:40:00,039 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271850.0
+2025-11-16 13:40:00,040 [INFO] root:    ⏰ Проверка 5d: diff=15879000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,041 [INFO] root:    ⏰ Проверка 3d: diff=16051800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,059 [INFO] root:    ⏰ Проверка 1d: diff=16224600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,060 [INFO] root:    ⏰ Проверка 2h: diff=16303800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,060 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8870.0
+2025-11-16 13:40:00,060 [INFO] root:    ⏰ Проверка 5d: diff=100200сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,061 [INFO] root:    ⏰ Проверка 3d: diff=273000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,062 [INFO] root:    ⏰ Проверка 1d: diff=445800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,062 [INFO] root:    ⏰ Проверка 2h: diff=525000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,063 [INFO] root: 🎯 Гонка Sputnik Track II этап (ID: 4): дней до старта: 20, минут: 29030.0
+2025-11-16 13:40:00,063 [INFO] root:    ⏰ Проверка 5d: diff=1309800сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,063 [INFO] root:    ⏰ Проверка 3d: diff=1482600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,063 [INFO] root:    ⏰ Проверка 1d: diff=1655400сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,064 [INFO] root:    ⏰ Проверка 2h: diff=1734600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,064 [INFO] root: 🎯 Гонка Sputnik Track III этап (ID: 5): дней до старта: 34, минут: 49190.0
+2025-11-16 13:40:00,064 [INFO] root:    ⏰ Проверка 5d: diff=2519400сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,065 [INFO] root:    ⏰ Проверка 3d: diff=2692200сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,155 [INFO] root:    ⏰ Проверка 1d: diff=2865000сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,233 [INFO] root:    ⏰ Проверка 2h: diff=2944200сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,428 [INFO] root: 👤 Пользователь 104789 подписан на гонки: ['1']
+2025-11-16 13:40:00,569 [INFO] root: 🎯 Гонка Cyclingrace: Садовое кольцо (ID: 1): дней до старта: 187, минут: 270410.0
+2025-11-16 13:40:00,669 [INFO] root:    ⏰ Проверка 5d: diff=15792600сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,745 [INFO] root:    ⏰ Проверка 3d: diff=15965400сек, should_send=False, already_sent=False
+2025-11-16 13:40:00,950 [INFO] root:    ⏰ Проверка 1d: diff=16138200сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,086 [INFO] root:    ⏰ Проверка 2h: diff=16217400сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,090 [INFO] root: 👤 Пользователь 259810935 подписан на гонки: ['5', '4', '3', '2', '501', '502']
+2025-11-16 13:40:01,119 [INFO] root: 🎯 Гонка Sputnik Track III этап (ID: 5): дней до старта: 34, минут: 49190.0
+2025-11-16 13:40:01,213 [INFO] root:    ⏰ Проверка 5d: diff=2519400сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,258 [INFO] root:    ⏰ Проверка 3d: diff=2692200сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,275 [INFO] root:    ⏰ Проверка 1d: diff=2865000сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,543 [INFO] root:    ⏰ Проверка 2h: diff=2944200сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,655 [INFO] root: 🎯 Гонка Sputnik Track II этап (ID: 4): дней до старта: 20, минут: 29030.0
+2025-11-16 13:40:01,679 [INFO] root:    ⏰ Проверка 5d: diff=1309800сек, should_send=False, already_sent=False
+2025-11-16 13:40:01,872 [INFO] root:    ⏰ Проверка 3d: diff=1482600сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,082 [INFO] root:    ⏰ Проверка 1d: diff=1655400сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,245 [INFO] root:    ⏰ Проверка 2h: diff=1734600сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,271 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8870.0
+2025-11-16 13:40:02,317 [INFO] root:    ⏰ Проверка 5d: diff=100200сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,592 [INFO] root:    ⏰ Проверка 3d: diff=273000сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,750 [INFO] root:    ⏰ Проверка 1d: diff=445800сек, should_send=False, already_sent=False
+2025-11-16 13:40:02,762 [INFO] root:    ⏰ Проверка 2h: diff=525000сек, should_send=False, already_sent=False
+2025-11-16 13:40:03,033 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271850.0
+2025-11-16 13:40:03,149 [INFO] root:    ⏰ Проверка 5d: diff=15879000сек, should_send=False, already_sent=False
+2025-11-16 13:40:03,242 [INFO] root:    ⏰ Проверка 3d: diff=16051800сек, should_send=False, already_sent=False
+2025-11-16 13:40:03,486 [INFO] root:    ⏰ Проверка 1d: diff=16224600сек, should_send=False, already_sent=False
+2025-11-16 13:40:03,628 [INFO] root:    ⏰ Проверка 2h: diff=16303800сек, should_send=False, already_sent=False
+2025-11-16 13:40:03,687 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6760.0
+2025-11-16 13:40:03,883 [INFO] root:    ⏰ Проверка 5d: diff=837600сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,063 [INFO] root:    ⏰ Проверка 3d: diff=664800сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,246 [INFO] root:    ⏰ Проверка 1d: diff=492000сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,274 [INFO] root:    ⏰ Проверка 2h: diff=412800сек, should_send=False, already_sent=True
+2025-11-16 13:40:04,287 [INFO] root: 🎯 Гонка Morning ride Rul Baran (ID: 502): дней до старта: -5, минут: -6160.0
+2025-11-16 13:40:04,413 [INFO] root:    ⏰ Проверка 5d: diff=801600сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,461 [INFO] root:    ⏰ Проверка 3d: diff=628800сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,536 [INFO] root:    ⏰ Проверка 1d: diff=456000сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,562 [INFO] root:    ⏰ Проверка 2h: diff=376800сек, should_send=False, already_sent=True
+2025-11-16 13:40:04,607 [INFO] root: 👤 Пользователь 93577892 подписан на гонки: ['3']
+2025-11-16 13:40:04,624 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8870.0
+2025-11-16 13:40:04,626 [INFO] root:    ⏰ Проверка 5d: diff=100200сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,627 [INFO] root:    ⏰ Проверка 3d: diff=273000сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,628 [INFO] root:    ⏰ Проверка 1d: diff=445800сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,629 [INFO] root:    ⏰ Проверка 2h: diff=525000сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,630 [INFO] root: 👤 Пользователь 29616599 подписан на гонки: ['3', '501']
+2025-11-16 13:40:04,636 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8870.0
+2025-11-16 13:40:04,693 [INFO] root:    ⏰ Проверка 5d: diff=100200сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,791 [INFO] root:    ⏰ Проверка 3d: diff=273000сек, should_send=False, already_sent=False
+2025-11-16 13:40:04,989 [INFO] root:    ⏰ Проверка 1d: diff=445800сек, should_send=False, already_sent=False
+2025-11-16 13:40:05,043 [INFO] root:    ⏰ Проверка 2h: diff=525000сек, should_send=False, already_sent=False
+2025-11-16 13:40:05,242 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6760.0
+2025-11-16 13:40:05,349 [INFO] root:    ⏰ Проверка 5d: diff=837600сек, should_send=False, already_sent=False
+2025-11-16 13:40:05,471 [INFO] root:    ⏰ Проверка 3d: diff=664800сек, should_send=False, already_sent=False
+2025-11-16 13:40:05,516 [INFO] root:    ⏰ Проверка 1d: diff=492000сек, should_send=False, already_sent=False
+2025-11-16 13:40:05,518 [INFO] root:    ⏰ Проверка 2h: diff=412800сек, should_send=False, already_sent=True
+2025-11-16 13:42:50,331 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:42:50,344 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:42:50,428 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:42:50,713 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:43:00,587 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:43:00,588 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:43:00,590 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:43:01,035 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:43:01,083 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-16 13:43:01,479 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:43:01,481 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:43:01,532 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:43:08,240 [INFO] aiogram.event: Update id=444205284 is not handled. Duration 182 ms by bot id=8432313674
+2025-11-16 13:43:08,242 [ERROR] aiogram.event: Cause exception while process update id=444205284 by bot id=8432313674
+NameError: name 'road_races' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.13\handlers\start.py", line 228, in show_trek_races
+    for race in road_races:
+                ^^^^^^^^^^
+NameError: name 'road_races' is not defined. Did you mean: 'load_races'?
+2025-11-16 13:43:11,984 [INFO] aiogram.event: Update id=444205285 is handled. Duration 525 ms by bot id=8432313674
+2025-11-16 13:43:17,750 [INFO] aiogram.event: Update id=444205286 is handled. Duration 139 ms by bot id=8432313674
+2025-11-16 13:44:25,002 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:44:25,006 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:44:25,008 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:44:25,268 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:44:34,739 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:44:34,742 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:44:34,744 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:44:35,163 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:44:35,173 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-16 13:44:35,475 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:44:35,476 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:44:35,520 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:44:39,933 [INFO] aiogram.event: Update id=444205287 is handled. Duration 613 ms by bot id=8432313674
+2025-11-16 13:44:46,685 [INFO] aiogram.event: Update id=444205288 is handled. Duration 212 ms by bot id=8432313674
+2025-11-16 13:45:37,259 [INFO] aiogram.event: Update id=444205289 is handled. Duration 249 ms by bot id=8432313674
+2025-11-16 13:45:39,811 [INFO] aiogram.event: Update id=444205290 is handled. Duration 666 ms by bot id=8432313674
+2025-11-16 13:50:00,026 [INFO] root: 🔍 Проверка напоминаний: 16.11.2025 13:50:00
+2025-11-16 13:50:00,032 [INFO] root: 📊 Найдено гонок: 9, Пользователей: 6
+2025-11-16 13:50:00,032 [INFO] root: 👤 Пользователь 463194607 подписан на гонки: ['1', '2', '501']
+2025-11-16 13:50:00,044 [INFO] root: 🎯 Гонка Cyclingrace: Садовое кольцо (ID: 1): дней до старта: 187, минут: 270400.0
+2025-11-16 13:50:00,051 [INFO] root:    ⏰ Проверка 5d: diff=15792000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,051 [INFO] root:    ⏰ Проверка 3d: diff=15964800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,052 [INFO] root:    ⏰ Проверка 1d: diff=16137600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,064 [INFO] root:    ⏰ Проверка 2h: diff=16216800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,065 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271840.0
+2025-11-16 13:50:00,065 [INFO] root:    ⏰ Проверка 5d: diff=15878400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,065 [INFO] root:    ⏰ Проверка 3d: diff=16051200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,066 [INFO] root:    ⏰ Проверка 1d: diff=16224000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,066 [INFO] root:    ⏰ Проверка 2h: diff=16303200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,067 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6770.0
+2025-11-16 13:50:00,067 [INFO] root:    ⏰ Проверка 5d: diff=838200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,067 [INFO] root:    ⏰ Проверка 3d: diff=665400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,068 [INFO] root:    ⏰ Проверка 1d: diff=492600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,073 [INFO] root:    ⏰ Проверка 2h: diff=413400сек, should_send=False, already_sent=True
+2025-11-16 13:50:00,222 [INFO] root: 👤 Пользователь 440597082 подписан на гонки: ['2', '3', '4', '5']
+2025-11-16 13:50:00,250 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271840.0
+2025-11-16 13:50:00,252 [INFO] root:    ⏰ Проверка 5d: diff=15878400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,253 [INFO] root:    ⏰ Проверка 3d: diff=16051200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,253 [INFO] root:    ⏰ Проверка 1d: diff=16224000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,254 [INFO] root:    ⏰ Проверка 2h: diff=16303200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,254 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8860.0
+2025-11-16 13:50:00,254 [INFO] root:    ⏰ Проверка 5d: diff=99600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,255 [INFO] root:    ⏰ Проверка 3d: diff=272400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,255 [INFO] root:    ⏰ Проверка 1d: diff=445200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,255 [INFO] root:    ⏰ Проверка 2h: diff=524400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,255 [INFO] root: 🎯 Гонка Sputnik Track II этап (ID: 4): дней до старта: 20, минут: 29020.0
+2025-11-16 13:50:00,256 [INFO] root:    ⏰ Проверка 5d: diff=1309200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,257 [INFO] root:    ⏰ Проверка 3d: diff=1482000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,257 [INFO] root:    ⏰ Проверка 1d: diff=1654800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,257 [INFO] root:    ⏰ Проверка 2h: diff=1734000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,258 [INFO] root: 🎯 Гонка Sputnik Track III этап (ID: 5): дней до старта: 34, минут: 49180.0
+2025-11-16 13:50:00,258 [INFO] root:    ⏰ Проверка 5d: diff=2518800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,258 [INFO] root:    ⏰ Проверка 3d: diff=2691600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,258 [INFO] root:    ⏰ Проверка 1d: diff=2864400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,259 [INFO] root:    ⏰ Проверка 2h: diff=2943600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,259 [INFO] root: 👤 Пользователь 104789 подписан на гонки: ['1']
+2025-11-16 13:50:00,259 [INFO] root: 🎯 Гонка Cyclingrace: Садовое кольцо (ID: 1): дней до старта: 187, минут: 270400.0
+2025-11-16 13:50:00,260 [INFO] root:    ⏰ Проверка 5d: diff=15792000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,260 [INFO] root:    ⏰ Проверка 3d: diff=15964800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,260 [INFO] root:    ⏰ Проверка 1d: diff=16137600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,260 [INFO] root:    ⏰ Проверка 2h: diff=16216800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,261 [INFO] root: 👤 Пользователь 259810935 подписан на гонки: ['5', '4', '3', '2', '501', '502']
+2025-11-16 13:50:00,261 [INFO] root: 🎯 Гонка Sputnik Track III этап (ID: 5): дней до старта: 34, минут: 49180.0
+2025-11-16 13:50:00,261 [INFO] root:    ⏰ Проверка 5d: diff=2518800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,262 [INFO] root:    ⏰ Проверка 3d: diff=2691600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,262 [INFO] root:    ⏰ Проверка 1d: diff=2864400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,262 [INFO] root:    ⏰ Проверка 2h: diff=2943600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,263 [INFO] root: 🎯 Гонка Sputnik Track II этап (ID: 4): дней до старта: 20, минут: 29020.0
+2025-11-16 13:50:00,263 [INFO] root:    ⏰ Проверка 5d: diff=1309200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,263 [INFO] root:    ⏰ Проверка 3d: diff=1482000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,263 [INFO] root:    ⏰ Проверка 1d: diff=1654800сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,263 [INFO] root:    ⏰ Проверка 2h: diff=1734000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,264 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8860.0
+2025-11-16 13:50:00,264 [INFO] root:    ⏰ Проверка 5d: diff=99600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,264 [INFO] root:    ⏰ Проверка 3d: diff=272400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,265 [INFO] root:    ⏰ Проверка 1d: diff=445200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,265 [INFO] root:    ⏰ Проверка 2h: diff=524400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,265 [INFO] root: 🎯 Гонка Cyclingrace: Крылатские холмы (ID: 2): дней до старта: 188, минут: 271840.0
+2025-11-16 13:50:00,266 [INFO] root:    ⏰ Проверка 5d: diff=15878400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,266 [INFO] root:    ⏰ Проверка 3d: diff=16051200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,266 [INFO] root:    ⏰ Проверка 1d: diff=16224000сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,270 [INFO] root:    ⏰ Проверка 2h: diff=16303200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,364 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6770.0
+2025-11-16 13:50:00,366 [INFO] root:    ⏰ Проверка 5d: diff=838200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,366 [INFO] root:    ⏰ Проверка 3d: diff=665400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,367 [INFO] root:    ⏰ Проверка 1d: diff=492600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,367 [INFO] root:    ⏰ Проверка 2h: diff=413400сек, should_send=False, already_sent=True
+2025-11-16 13:50:00,368 [INFO] root: 🎯 Гонка Morning ride Rul Baran (ID: 502): дней до старта: -5, минут: -6170.0
+2025-11-16 13:50:00,368 [INFO] root:    ⏰ Проверка 5d: diff=802200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,368 [INFO] root:    ⏰ Проверка 3d: diff=629400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,369 [INFO] root:    ⏰ Проверка 1d: diff=456600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,369 [INFO] root:    ⏰ Проверка 2h: diff=377400сек, should_send=False, already_sent=True
+2025-11-16 13:50:00,369 [INFO] root: 👤 Пользователь 93577892 подписан на гонки: ['3']
+2025-11-16 13:50:00,370 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8860.0
+2025-11-16 13:50:00,370 [INFO] root:    ⏰ Проверка 5d: diff=99600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,370 [INFO] root:    ⏰ Проверка 3d: diff=272400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,370 [INFO] root:    ⏰ Проверка 1d: diff=445200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,371 [INFO] root:    ⏰ Проверка 2h: diff=524400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,371 [INFO] root: 👤 Пользователь 29616599 подписан на гонки: ['3', '501']
+2025-11-16 13:50:00,372 [INFO] root: 🎯 Гонка Sputnik Track I этап (ID: 3): дней до старта: 6, минут: 8860.0
+2025-11-16 13:50:00,372 [INFO] root:    ⏰ Проверка 5d: diff=99600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,372 [INFO] root:    ⏰ Проверка 3d: diff=272400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,373 [INFO] root:    ⏰ Проверка 1d: diff=445200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,373 [INFO] root:    ⏰ Проверка 2h: diff=524400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,373 [INFO] root: 🎯 Гонка VeloPulse Zwift Ride (ID: 501): дней до старта: -5, минут: -6770.0
+2025-11-16 13:50:00,373 [INFO] root:    ⏰ Проверка 5d: diff=838200сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,374 [INFO] root:    ⏰ Проверка 3d: diff=665400сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,374 [INFO] root:    ⏰ Проверка 1d: diff=492600сек, should_send=False, already_sent=False
+2025-11-16 13:50:00,374 [INFO] root:    ⏰ Проверка 2h: diff=413400сек, should_send=False, already_sent=True
+2025-11-16 13:53:15,646 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:53:15,650 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:53:15,651 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:53:15,917 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:53:24,920 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:53:24,937 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:53:24,939 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:53:25,298 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:53:25,299 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 13:53:25,603 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:53:25,604 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:53:25,656 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:55:00,004 [INFO] root: ReminderService: check_and_send start
+2025-11-16 13:55:00,019 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 463194607, delta_seconds=16223700
+2025-11-16 13:55:00,022 [DEBUG] root: Not in window for 5d: delta_seconds=16223700, window=[388800,475200]
+2025-11-16 13:55:00,023 [DEBUG] root: Not in window for 3d: delta_seconds=16223700, window=[237600,280800]
+2025-11-16 13:55:00,024 [DEBUG] root: Not in window for 1d: delta_seconds=16223700, window=[75600,97200]
+2025-11-16 13:55:00,025 [DEBUG] root: Not in window for 2h: delta_seconds=16223700, window=[6300,8100]
+2025-11-16 13:55:00,025 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 463194607, delta_seconds=16310100
+2025-11-16 13:55:00,027 [DEBUG] root: Not in window for 5d: delta_seconds=16310100, window=[388800,475200]
+2025-11-16 13:55:00,028 [DEBUG] root: Not in window for 3d: delta_seconds=16310100, window=[237600,280800]
+2025-11-16 13:55:00,028 [DEBUG] root: Not in window for 1d: delta_seconds=16310100, window=[75600,97200]
+2025-11-16 13:55:00,029 [DEBUG] root: Not in window for 2h: delta_seconds=16310100, window=[6300,8100]
+2025-11-16 13:55:00,029 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 13:55:00,031 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 440597082, delta_seconds=16310100
+2025-11-16 13:55:00,031 [DEBUG] root: Not in window for 5d: delta_seconds=16310100, window=[388800,475200]
+2025-11-16 13:55:00,033 [DEBUG] root: Not in window for 3d: delta_seconds=16310100, window=[237600,280800]
+2025-11-16 13:55:00,033 [DEBUG] root: Not in window for 1d: delta_seconds=16310100, window=[75600,97200]
+2025-11-16 13:55:00,036 [DEBUG] root: Not in window for 2h: delta_seconds=16310100, window=[6300,8100]
+2025-11-16 13:55:00,039 [DEBUG] root: Checking Sputnik Track I этап for user 440597082, delta_seconds=531300
+2025-11-16 13:55:00,039 [DEBUG] root: Not in window for 5d: delta_seconds=531300, window=[388800,475200]
+2025-11-16 13:55:00,040 [DEBUG] root: Not in window for 3d: delta_seconds=531300, window=[237600,280800]
+2025-11-16 13:55:00,040 [DEBUG] root: Not in window for 1d: delta_seconds=531300, window=[75600,97200]
+2025-11-16 13:55:00,040 [DEBUG] root: Not in window for 2h: delta_seconds=531300, window=[6300,8100]
+2025-11-16 13:55:00,040 [DEBUG] root: Checking Sputnik Track II этап for user 440597082, delta_seconds=1740900
+2025-11-16 13:55:00,041 [DEBUG] root: Not in window for 5d: delta_seconds=1740900, window=[388800,475200]
+2025-11-16 13:55:00,041 [DEBUG] root: Not in window for 3d: delta_seconds=1740900, window=[237600,280800]
+2025-11-16 13:55:00,043 [DEBUG] root: Not in window for 1d: delta_seconds=1740900, window=[75600,97200]
+2025-11-16 13:55:00,043 [DEBUG] root: Not in window for 2h: delta_seconds=1740900, window=[6300,8100]
+2025-11-16 13:55:00,044 [DEBUG] root: Checking Sputnik Track III этап for user 440597082, delta_seconds=2950500
+2025-11-16 13:55:00,045 [DEBUG] root: Not in window for 5d: delta_seconds=2950500, window=[388800,475200]
+2025-11-16 13:55:00,045 [DEBUG] root: Not in window for 3d: delta_seconds=2950500, window=[237600,280800]
+2025-11-16 13:55:00,045 [DEBUG] root: Not in window for 1d: delta_seconds=2950500, window=[75600,97200]
+2025-11-16 13:55:00,046 [DEBUG] root: Not in window for 2h: delta_seconds=2950500, window=[6300,8100]
+2025-11-16 13:55:00,046 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 104789, delta_seconds=16223700
+2025-11-16 13:55:00,047 [DEBUG] root: Not in window for 5d: delta_seconds=16223700, window=[388800,475200]
+2025-11-16 13:55:00,047 [DEBUG] root: Not in window for 3d: delta_seconds=16223700, window=[237600,280800]
+2025-11-16 13:55:00,047 [DEBUG] root: Not in window for 1d: delta_seconds=16223700, window=[75600,97200]
+2025-11-16 13:55:00,049 [DEBUG] root: Not in window for 2h: delta_seconds=16223700, window=[6300,8100]
+2025-11-16 13:55:00,061 [DEBUG] root: Checking Sputnik Track III этап for user 259810935, delta_seconds=2950500
+2025-11-16 13:55:00,062 [DEBUG] root: Not in window for 5d: delta_seconds=2950500, window=[388800,475200]
+2025-11-16 13:55:00,062 [DEBUG] root: Not in window for 3d: delta_seconds=2950500, window=[237600,280800]
+2025-11-16 13:55:00,062 [DEBUG] root: Not in window for 1d: delta_seconds=2950500, window=[75600,97200]
+2025-11-16 13:55:00,062 [DEBUG] root: Not in window for 2h: delta_seconds=2950500, window=[6300,8100]
+2025-11-16 13:55:00,063 [DEBUG] root: Checking Sputnik Track II этап for user 259810935, delta_seconds=1740900
+2025-11-16 13:55:00,063 [DEBUG] root: Not in window for 5d: delta_seconds=1740900, window=[388800,475200]
+2025-11-16 13:55:00,063 [DEBUG] root: Not in window for 3d: delta_seconds=1740900, window=[237600,280800]
+2025-11-16 13:55:00,064 [DEBUG] root: Not in window for 1d: delta_seconds=1740900, window=[75600,97200]
+2025-11-16 13:55:00,064 [DEBUG] root: Not in window for 2h: delta_seconds=1740900, window=[6300,8100]
+2025-11-16 13:55:00,064 [DEBUG] root: Checking Sputnik Track I этап for user 259810935, delta_seconds=531300
+2025-11-16 13:55:00,064 [DEBUG] root: Not in window for 5d: delta_seconds=531300, window=[388800,475200]
+2025-11-16 13:55:00,065 [DEBUG] root: Not in window for 3d: delta_seconds=531300, window=[237600,280800]
+2025-11-16 13:55:00,065 [DEBUG] root: Not in window for 1d: delta_seconds=531300, window=[75600,97200]
+2025-11-16 13:55:00,065 [DEBUG] root: Not in window for 2h: delta_seconds=531300, window=[6300,8100]
+2025-11-16 13:55:00,066 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 259810935, delta_seconds=16310100
+2025-11-16 13:55:00,066 [DEBUG] root: Not in window for 5d: delta_seconds=16310100, window=[388800,475200]
+2025-11-16 13:55:00,066 [DEBUG] root: Not in window for 3d: delta_seconds=16310100, window=[237600,280800]
+2025-11-16 13:55:00,066 [DEBUG] root: Not in window for 1d: delta_seconds=16310100, window=[75600,97200]
+2025-11-16 13:55:00,067 [DEBUG] root: Not in window for 2h: delta_seconds=16310100, window=[6300,8100]
+2025-11-16 13:55:00,067 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 13:55:00,067 [DEBUG] root: Event Morning ride Rul Baran already passed (2025-11-12 07:00:00+03:00), skipping
+2025-11-16 13:55:00,067 [DEBUG] root: Checking Sputnik Track I этап for user 93577892, delta_seconds=531300
+2025-11-16 13:55:00,068 [DEBUG] root: Not in window for 5d: delta_seconds=531300, window=[388800,475200]
+2025-11-16 13:55:00,068 [DEBUG] root: Not in window for 3d: delta_seconds=531300, window=[237600,280800]
+2025-11-16 13:55:00,068 [DEBUG] root: Not in window for 1d: delta_seconds=531300, window=[75600,97200]
+2025-11-16 13:55:00,069 [DEBUG] root: Not in window for 2h: delta_seconds=531300, window=[6300,8100]
+2025-11-16 13:55:00,069 [DEBUG] root: Checking Sputnik Track I этап for user 29616599, delta_seconds=531300
+2025-11-16 13:55:00,069 [DEBUG] root: Not in window for 5d: delta_seconds=531300, window=[388800,475200]
+2025-11-16 13:55:00,069 [DEBUG] root: Not in window for 3d: delta_seconds=531300, window=[237600,280800]
+2025-11-16 13:55:00,070 [DEBUG] root: Not in window for 1d: delta_seconds=531300, window=[75600,97200]
+2025-11-16 13:55:00,070 [DEBUG] root: Not in window for 2h: delta_seconds=531300, window=[6300,8100]
+2025-11-16 13:55:00,070 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 13:55:00,070 [INFO] root: ReminderService: check_and_send finished
+2025-11-16 13:55:00,525 [INFO] aiogram.event: Update id=444205291 is handled. Duration 522 ms by bot id=8432313674
+2025-11-16 13:55:02,038 [INFO] aiogram.event: Update id=444205292 is handled. Duration 347 ms by bot id=8432313674
+2025-11-16 13:55:04,566 [INFO] aiogram.event: Update id=444205293 is handled. Duration 59 ms by bot id=8432313674
+2025-11-16 13:55:07,270 [INFO] aiogram.event: Update id=444205294 is handled. Duration 147 ms by bot id=8432313674
+2025-11-16 13:55:16,858 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 13:55:16,861 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 13:55:16,862 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 13:55:17,129 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:55:45,209 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 13:55:45,211 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 13:55:45,214 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 13:55:45,594 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 13:55:45,596 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 13:55:45,901 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 13:55:45,901 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 13:55:45,946 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 13:57:05,176 [INFO] aiogram.event: Update id=444205295 is handled. Duration 1549 ms by bot id=8432313674
+2025-11-16 13:58:09,295 [INFO] aiogram.event: Update id=444205296 is handled. Duration 124 ms by bot id=8432313674
+2025-11-16 14:00:00,013 [INFO] root: ReminderService: check_and_send start
+2025-11-16 14:00:00,032 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 463194607, delta_seconds=16223400
+2025-11-16 14:00:00,101 [DEBUG] root: Not in window for 5d: delta_seconds=16223400, window=[388800,475200]
+2025-11-16 14:00:00,102 [DEBUG] root: Not in window for 3d: delta_seconds=16223400, window=[237600,280800]
+2025-11-16 14:00:00,102 [DEBUG] root: Not in window for 1d: delta_seconds=16223400, window=[75600,97200]
+2025-11-16 14:00:00,102 [DEBUG] root: Not in window for 2h: delta_seconds=16223400, window=[6300,8100]
+2025-11-16 14:00:00,103 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 463194607, delta_seconds=16309800
+2025-11-16 14:00:00,103 [DEBUG] root: Not in window for 5d: delta_seconds=16309800, window=[388800,475200]
+2025-11-16 14:00:00,103 [DEBUG] root: Not in window for 3d: delta_seconds=16309800, window=[237600,280800]
+2025-11-16 14:00:00,104 [DEBUG] root: Not in window for 1d: delta_seconds=16309800, window=[75600,97200]
+2025-11-16 14:00:00,104 [DEBUG] root: Not in window for 2h: delta_seconds=16309800, window=[6300,8100]
+2025-11-16 14:00:00,104 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:00:00,105 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 440597082, delta_seconds=16309800
+2025-11-16 14:00:00,105 [DEBUG] root: Not in window for 5d: delta_seconds=16309800, window=[388800,475200]
+2025-11-16 14:00:00,105 [DEBUG] root: Not in window for 3d: delta_seconds=16309800, window=[237600,280800]
+2025-11-16 14:00:00,106 [DEBUG] root: Not in window for 1d: delta_seconds=16309800, window=[75600,97200]
+2025-11-16 14:00:00,106 [DEBUG] root: Not in window for 2h: delta_seconds=16309800, window=[6300,8100]
+2025-11-16 14:00:00,106 [DEBUG] root: Checking Sputnik Track I этап for user 440597082, delta_seconds=531000
+2025-11-16 14:00:00,106 [DEBUG] root: Not in window for 5d: delta_seconds=531000, window=[388800,475200]
+2025-11-16 14:00:00,107 [DEBUG] root: Not in window for 3d: delta_seconds=531000, window=[237600,280800]
+2025-11-16 14:00:00,107 [DEBUG] root: Not in window for 1d: delta_seconds=531000, window=[75600,97200]
+2025-11-16 14:00:00,107 [DEBUG] root: Not in window for 2h: delta_seconds=531000, window=[6300,8100]
+2025-11-16 14:00:00,109 [DEBUG] root: Checking Sputnik Track II этап for user 440597082, delta_seconds=1740600
+2025-11-16 14:00:00,110 [DEBUG] root: Not in window for 5d: delta_seconds=1740600, window=[388800,475200]
+2025-11-16 14:00:00,110 [DEBUG] root: Not in window for 3d: delta_seconds=1740600, window=[237600,280800]
+2025-11-16 14:00:00,110 [DEBUG] root: Not in window for 1d: delta_seconds=1740600, window=[75600,97200]
+2025-11-16 14:00:00,112 [DEBUG] root: Not in window for 2h: delta_seconds=1740600, window=[6300,8100]
+2025-11-16 14:00:00,112 [DEBUG] root: Checking Sputnik Track III этап for user 440597082, delta_seconds=2950200
+2025-11-16 14:00:00,113 [DEBUG] root: Not in window for 5d: delta_seconds=2950200, window=[388800,475200]
+2025-11-16 14:00:00,114 [DEBUG] root: Not in window for 3d: delta_seconds=2950200, window=[237600,280800]
+2025-11-16 14:00:00,114 [DEBUG] root: Not in window for 1d: delta_seconds=2950200, window=[75600,97200]
+2025-11-16 14:00:00,115 [DEBUG] root: Not in window for 2h: delta_seconds=2950200, window=[6300,8100]
+2025-11-16 14:00:00,115 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 104789, delta_seconds=16223400
+2025-11-16 14:00:00,116 [DEBUG] root: Not in window for 5d: delta_seconds=16223400, window=[388800,475200]
+2025-11-16 14:00:00,118 [DEBUG] root: Not in window for 3d: delta_seconds=16223400, window=[237600,280800]
+2025-11-16 14:00:00,118 [DEBUG] root: Not in window for 1d: delta_seconds=16223400, window=[75600,97200]
+2025-11-16 14:00:00,118 [DEBUG] root: Not in window for 2h: delta_seconds=16223400, window=[6300,8100]
+2025-11-16 14:00:00,119 [DEBUG] root: Checking Sputnik Track III этап for user 259810935, delta_seconds=2950200
+2025-11-16 14:00:00,119 [DEBUG] root: Not in window for 5d: delta_seconds=2950200, window=[388800,475200]
+2025-11-16 14:00:00,119 [DEBUG] root: Not in window for 3d: delta_seconds=2950200, window=[237600,280800]
+2025-11-16 14:00:00,120 [DEBUG] root: Not in window for 1d: delta_seconds=2950200, window=[75600,97200]
+2025-11-16 14:00:00,120 [DEBUG] root: Not in window for 2h: delta_seconds=2950200, window=[6300,8100]
+2025-11-16 14:00:00,123 [DEBUG] root: Checking Sputnik Track II этап for user 259810935, delta_seconds=1740600
+2025-11-16 14:00:00,124 [DEBUG] root: Not in window for 5d: delta_seconds=1740600, window=[388800,475200]
+2025-11-16 14:00:00,124 [DEBUG] root: Not in window for 3d: delta_seconds=1740600, window=[237600,280800]
+2025-11-16 14:00:00,125 [DEBUG] root: Not in window for 1d: delta_seconds=1740600, window=[75600,97200]
+2025-11-16 14:00:00,126 [DEBUG] root: Not in window for 2h: delta_seconds=1740600, window=[6300,8100]
+2025-11-16 14:00:00,126 [DEBUG] root: Checking Sputnik Track I этап for user 259810935, delta_seconds=531000
+2025-11-16 14:00:00,128 [DEBUG] root: Not in window for 5d: delta_seconds=531000, window=[388800,475200]
+2025-11-16 14:00:00,129 [DEBUG] root: Not in window for 3d: delta_seconds=531000, window=[237600,280800]
+2025-11-16 14:00:00,129 [DEBUG] root: Not in window for 1d: delta_seconds=531000, window=[75600,97200]
+2025-11-16 14:00:00,131 [DEBUG] root: Not in window for 2h: delta_seconds=531000, window=[6300,8100]
+2025-11-16 14:00:00,131 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 259810935, delta_seconds=16309800
+2025-11-16 14:00:00,132 [DEBUG] root: Not in window for 5d: delta_seconds=16309800, window=[388800,475200]
+2025-11-16 14:00:00,132 [DEBUG] root: Not in window for 3d: delta_seconds=16309800, window=[237600,280800]
+2025-11-16 14:00:00,132 [DEBUG] root: Not in window for 1d: delta_seconds=16309800, window=[75600,97200]
+2025-11-16 14:00:00,132 [DEBUG] root: Not in window for 2h: delta_seconds=16309800, window=[6300,8100]
+2025-11-16 14:00:00,133 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:00:00,133 [DEBUG] root: Event Morning ride Rul Baran already passed (2025-11-12 07:00:00+03:00), skipping
+2025-11-16 14:00:00,133 [DEBUG] root: Checking Тест погоды for user 259810935, delta_seconds=7800
+2025-11-16 14:00:00,134 [DEBUG] root: Not in window for 5d: delta_seconds=7800, window=[388800,475200]
+2025-11-16 14:00:00,134 [DEBUG] root: Not in window for 3d: delta_seconds=7800, window=[237600,280800]
+2025-11-16 14:00:00,134 [DEBUG] root: Not in window for 1d: delta_seconds=7800, window=[75600,97200]
+2025-11-16 14:00:00,268 [WARNING] root: No geo data for location Москва, Верхняя Радищевская улица, 19/3с2
+2025-11-16 14:00:00,365 [INFO] root: Sent reminder to 259810935
+2025-11-16 14:00:00,375 [DEBUG] root: Checking Sputnik Track I этап for user 93577892, delta_seconds=531000
+2025-11-16 14:00:00,375 [DEBUG] root: Not in window for 5d: delta_seconds=531000, window=[388800,475200]
+2025-11-16 14:00:00,376 [DEBUG] root: Not in window for 3d: delta_seconds=531000, window=[237600,280800]
+2025-11-16 14:00:00,376 [DEBUG] root: Not in window for 1d: delta_seconds=531000, window=[75600,97200]
+2025-11-16 14:00:00,376 [DEBUG] root: Not in window for 2h: delta_seconds=531000, window=[6300,8100]
+2025-11-16 14:00:00,377 [DEBUG] root: Checking Sputnik Track I этап for user 29616599, delta_seconds=531000
+2025-11-16 14:00:00,377 [DEBUG] root: Not in window for 5d: delta_seconds=531000, window=[388800,475200]
+2025-11-16 14:00:00,377 [DEBUG] root: Not in window for 3d: delta_seconds=531000, window=[237600,280800]
+2025-11-16 14:00:00,377 [DEBUG] root: Not in window for 1d: delta_seconds=531000, window=[75600,97200]
+2025-11-16 14:00:00,380 [DEBUG] root: Not in window for 2h: delta_seconds=531000, window=[6300,8100]
+2025-11-16 14:00:00,381 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:00:00,381 [INFO] root: ReminderService: check_and_send finished
+2025-11-16 14:04:17,274 [INFO] aiogram.event: Update id=444205297 is handled. Duration 77 ms by bot id=8432313674
+2025-11-16 14:05:00,006 [INFO] root: ReminderService: check_and_send start
+2025-11-16 14:05:00,075 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 463194607, delta_seconds=16223100
+2025-11-16 14:05:00,076 [DEBUG] root: Not in window for 5d: delta_seconds=16223100, window=[388800,475200]
+2025-11-16 14:05:00,089 [DEBUG] root: Not in window for 3d: delta_seconds=16223100, window=[237600,280800]
+2025-11-16 14:05:00,090 [DEBUG] root: Not in window for 1d: delta_seconds=16223100, window=[75600,97200]
+2025-11-16 14:05:00,090 [DEBUG] root: Not in window for 2h: delta_seconds=16223100, window=[6300,8100]
+2025-11-16 14:05:00,091 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 463194607, delta_seconds=16309500
+2025-11-16 14:05:00,091 [DEBUG] root: Not in window for 5d: delta_seconds=16309500, window=[388800,475200]
+2025-11-16 14:05:00,091 [DEBUG] root: Not in window for 3d: delta_seconds=16309500, window=[237600,280800]
+2025-11-16 14:05:00,093 [DEBUG] root: Not in window for 1d: delta_seconds=16309500, window=[75600,97200]
+2025-11-16 14:05:00,096 [DEBUG] root: Not in window for 2h: delta_seconds=16309500, window=[6300,8100]
+2025-11-16 14:05:00,103 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:05:00,106 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 440597082, delta_seconds=16309500
+2025-11-16 14:05:00,107 [DEBUG] root: Not in window for 5d: delta_seconds=16309500, window=[388800,475200]
+2025-11-16 14:05:00,107 [DEBUG] root: Not in window for 3d: delta_seconds=16309500, window=[237600,280800]
+2025-11-16 14:05:00,107 [DEBUG] root: Not in window for 1d: delta_seconds=16309500, window=[75600,97200]
+2025-11-16 14:05:00,108 [DEBUG] root: Not in window for 2h: delta_seconds=16309500, window=[6300,8100]
+2025-11-16 14:05:00,108 [DEBUG] root: Checking Sputnik Track I этап for user 440597082, delta_seconds=530700
+2025-11-16 14:05:00,108 [DEBUG] root: Not in window for 5d: delta_seconds=530700, window=[388800,475200]
+2025-11-16 14:05:00,109 [DEBUG] root: Not in window for 3d: delta_seconds=530700, window=[237600,280800]
+2025-11-16 14:05:00,109 [DEBUG] root: Not in window for 1d: delta_seconds=530700, window=[75600,97200]
+2025-11-16 14:05:00,109 [DEBUG] root: Not in window for 2h: delta_seconds=530700, window=[6300,8100]
+2025-11-16 14:05:00,109 [DEBUG] root: Checking Sputnik Track II этап for user 440597082, delta_seconds=1740300
+2025-11-16 14:05:00,110 [DEBUG] root: Not in window for 5d: delta_seconds=1740300, window=[388800,475200]
+2025-11-16 14:05:00,110 [DEBUG] root: Not in window for 3d: delta_seconds=1740300, window=[237600,280800]
+2025-11-16 14:05:00,110 [DEBUG] root: Not in window for 1d: delta_seconds=1740300, window=[75600,97200]
+2025-11-16 14:05:00,110 [DEBUG] root: Not in window for 2h: delta_seconds=1740300, window=[6300,8100]
+2025-11-16 14:05:00,111 [DEBUG] root: Checking Sputnik Track III этап for user 440597082, delta_seconds=2949900
+2025-11-16 14:05:00,111 [DEBUG] root: Not in window for 5d: delta_seconds=2949900, window=[388800,475200]
+2025-11-16 14:05:00,112 [DEBUG] root: Not in window for 3d: delta_seconds=2949900, window=[237600,280800]
+2025-11-16 14:05:00,113 [DEBUG] root: Not in window for 1d: delta_seconds=2949900, window=[75600,97200]
+2025-11-16 14:05:00,113 [DEBUG] root: Not in window for 2h: delta_seconds=2949900, window=[6300,8100]
+2025-11-16 14:05:00,113 [DEBUG] root: Checking Cyclingrace: Садовое кольцо for user 104789, delta_seconds=16223100
+2025-11-16 14:05:00,113 [DEBUG] root: Not in window for 5d: delta_seconds=16223100, window=[388800,475200]
+2025-11-16 14:05:00,114 [DEBUG] root: Not in window for 3d: delta_seconds=16223100, window=[237600,280800]
+2025-11-16 14:05:00,114 [DEBUG] root: Not in window for 1d: delta_seconds=16223100, window=[75600,97200]
+2025-11-16 14:05:00,114 [DEBUG] root: Not in window for 2h: delta_seconds=16223100, window=[6300,8100]
+2025-11-16 14:05:00,114 [DEBUG] root: Checking Sputnik Track III этап for user 259810935, delta_seconds=2949900
+2025-11-16 14:05:00,114 [DEBUG] root: Not in window for 5d: delta_seconds=2949900, window=[388800,475200]
+2025-11-16 14:05:00,115 [DEBUG] root: Not in window for 3d: delta_seconds=2949900, window=[237600,280800]
+2025-11-16 14:05:00,115 [DEBUG] root: Not in window for 1d: delta_seconds=2949900, window=[75600,97200]
+2025-11-16 14:05:00,115 [DEBUG] root: Not in window for 2h: delta_seconds=2949900, window=[6300,8100]
+2025-11-16 14:05:00,115 [DEBUG] root: Checking Sputnik Track II этап for user 259810935, delta_seconds=1740300
+2025-11-16 14:05:00,116 [DEBUG] root: Not in window for 5d: delta_seconds=1740300, window=[388800,475200]
+2025-11-16 14:05:00,116 [DEBUG] root: Not in window for 3d: delta_seconds=1740300, window=[237600,280800]
+2025-11-16 14:05:00,116 [DEBUG] root: Not in window for 1d: delta_seconds=1740300, window=[75600,97200]
+2025-11-16 14:05:00,116 [DEBUG] root: Not in window for 2h: delta_seconds=1740300, window=[6300,8100]
+2025-11-16 14:05:00,116 [DEBUG] root: Checking Sputnik Track I этап for user 259810935, delta_seconds=530700
+2025-11-16 14:05:00,117 [DEBUG] root: Not in window for 5d: delta_seconds=530700, window=[388800,475200]
+2025-11-16 14:05:00,117 [DEBUG] root: Not in window for 3d: delta_seconds=530700, window=[237600,280800]
+2025-11-16 14:05:00,117 [DEBUG] root: Not in window for 1d: delta_seconds=530700, window=[75600,97200]
+2025-11-16 14:05:00,117 [DEBUG] root: Not in window for 2h: delta_seconds=530700, window=[6300,8100]
+2025-11-16 14:05:00,118 [DEBUG] root: Checking Cyclingrace: Крылатские холмы for user 259810935, delta_seconds=16309500
+2025-11-16 14:05:00,118 [DEBUG] root: Not in window for 5d: delta_seconds=16309500, window=[388800,475200]
+2025-11-16 14:05:00,118 [DEBUG] root: Not in window for 3d: delta_seconds=16309500, window=[237600,280800]
+2025-11-16 14:05:00,119 [DEBUG] root: Not in window for 1d: delta_seconds=16309500, window=[75600,97200]
+2025-11-16 14:05:00,119 [DEBUG] root: Not in window for 2h: delta_seconds=16309500, window=[6300,8100]
+2025-11-16 14:05:00,119 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:05:00,119 [DEBUG] root: Event Morning ride Rul Baran already passed (2025-11-12 07:00:00+03:00), skipping
+2025-11-16 14:05:00,120 [DEBUG] root: Checking Тест погоды for user 259810935, delta_seconds=7500
+2025-11-16 14:05:00,120 [DEBUG] root: Not in window for 5d: delta_seconds=7500, window=[388800,475200]
+2025-11-16 14:05:00,120 [DEBUG] root: Not in window for 3d: delta_seconds=7500, window=[237600,280800]
+2025-11-16 14:05:00,121 [DEBUG] root: Not in window for 1d: delta_seconds=7500, window=[75600,97200]
+2025-11-16 14:05:00,121 [DEBUG] root: Already sent 2h for 503 to 259810935
+2025-11-16 14:05:00,121 [DEBUG] root: Checking Sputnik Track I этап for user 93577892, delta_seconds=530700
+2025-11-16 14:05:00,121 [DEBUG] root: Not in window for 5d: delta_seconds=530700, window=[388800,475200]
+2025-11-16 14:05:00,122 [DEBUG] root: Not in window for 3d: delta_seconds=530700, window=[237600,280800]
+2025-11-16 14:05:00,122 [DEBUG] root: Not in window for 1d: delta_seconds=530700, window=[75600,97200]
+2025-11-16 14:05:00,122 [DEBUG] root: Not in window for 2h: delta_seconds=530700, window=[6300,8100]
+2025-11-16 14:05:00,123 [DEBUG] root: Checking Sputnik Track I этап for user 29616599, delta_seconds=530700
+2025-11-16 14:05:00,123 [DEBUG] root: Not in window for 5d: delta_seconds=530700, window=[388800,475200]
+2025-11-16 14:05:00,123 [DEBUG] root: Not in window for 3d: delta_seconds=530700, window=[237600,280800]
+2025-11-16 14:05:00,123 [DEBUG] root: Not in window for 1d: delta_seconds=530700, window=[75600,97200]
+2025-11-16 14:05:00,124 [DEBUG] root: Not in window for 2h: delta_seconds=530700, window=[6300,8100]
+2025-11-16 14:05:00,124 [DEBUG] root: Event VeloPulse Zwift Ride already passed (2025-11-11 21:00:00+03:00), skipping
+2025-11-16 14:05:00,124 [INFO] root: ReminderService: check_and_send finished
+2025-11-16 14:09:44,240 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:09:44,248 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:09:44,254 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:09:44,515 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:10:24,368 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:10:24,369 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:10:24,372 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:10:24,918 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:10:24,919 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:10:25,175 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:10:25,176 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:10:25,224 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:10:32,004 [INFO] aiogram.event: Update id=444205298 is handled. Duration 227 ms by bot id=8432313674
+2025-11-16 14:10:33,801 [INFO] aiogram.event: Update id=444205299 is handled. Duration 659 ms by bot id=8432313674
+2025-11-16 14:10:35,151 [INFO] aiogram.event: Update id=444205300 is handled. Duration 154 ms by bot id=8432313674
+2025-11-16 14:10:37,093 [INFO] aiogram.event: Update id=444205301 is handled. Duration 152 ms by bot id=8432313674
+2025-11-16 14:10:40,528 [INFO] aiogram.event: Update id=444205302 is handled. Duration 142 ms by bot id=8432313674
+2025-11-16 14:10:44,553 [INFO] aiogram.event: Update id=444205303 is handled. Duration 1091 ms by bot id=8432313674
+2025-11-16 14:15:00,266 [INFO] root: Sent reminder to 259810935
+2025-11-16 14:15:46,518 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:15:46,521 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:15:46,522 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:15:46,784 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:15:57,394 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:15:57,398 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:15:57,402 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:15:57,941 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:15:57,946 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:15:58,281 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:15:58,282 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:15:58,331 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:16:04,692 [INFO] aiogram.event: Update id=444205304 is handled. Duration 318 ms by bot id=8432313674
+2025-11-16 14:16:09,318 [INFO] aiogram.event: Update id=444205305 is not handled. Duration 14 ms by bot id=8432313674
+2025-11-16 14:16:09,319 [ERROR] aiogram.event: Cause exception while process update id=444205305 by bot id=8432313674
+AttributeError: module 'datetime' has no attribute 'now'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.13\handlers\start.py", line 394, in show_my_events
+    now = datetime.now()
+          ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+2025-11-16 14:16:24,944 [INFO] aiogram.event: Update id=444205306 is handled. Duration 426 ms by bot id=8432313674
+2025-11-16 14:19:00,164 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:19:00,169 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:19:00,173 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:19:00,437 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:19:10,148 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:19:10,149 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:19:10,153 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:19:10,621 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:19:10,623 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:19:11,207 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:19:11,207 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:19:11,391 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:19:14,954 [INFO] aiogram.event: Update id=444205307 is handled. Duration 680 ms by bot id=8432313674
+2025-11-16 14:19:18,169 [INFO] aiogram.event: Update id=444205308 is handled. Duration 1425 ms by bot id=8432313674
+2025-11-16 14:19:33,838 [INFO] aiogram.event: Update id=444205309 is handled. Duration 1374 ms by bot id=8432313674
+2025-11-16 14:19:46,485 [INFO] aiogram.event: Update id=444205310 is handled. Duration 293 ms by bot id=8432313674
+2025-11-16 14:19:50,583 [INFO] aiogram.event: Update id=444205311 is handled. Duration 354 ms by bot id=8432313674
+2025-11-16 14:23:18,043 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:23:18,048 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:23:18,053 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:23:18,319 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:23:28,215 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:23:28,216 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:23:28,219 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:23:28,878 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:23:28,880 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:23:29,122 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:23:29,123 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:23:29,172 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:23:32,070 [INFO] aiogram.event: Update id=444205312 is handled. Duration 373 ms by bot id=8432313674
+2025-11-16 14:23:34,714 [INFO] aiogram.event: Update id=444205313 is handled. Duration 756 ms by bot id=8432313674
+2025-11-16 14:23:40,168 [INFO] aiogram.event: Update id=444205314 is handled. Duration 378 ms by bot id=8432313674
+2025-11-16 14:27:11,251 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:27:11,258 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:27:11,258 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:27:11,521 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:27:21,374 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:27:21,376 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:27:21,378 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:27:21,875 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:27:21,877 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:27:22,147 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:27:22,148 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:27:22,198 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:27:25,490 [INFO] aiogram.event: Update id=444205315 is handled. Duration 466 ms by bot id=8432313674
+2025-11-16 14:27:30,566 [INFO] aiogram.event: Update id=444205316 is handled. Duration 430 ms by bot id=8432313674
+2025-11-16 14:27:36,780 [INFO] aiogram.event: Update id=444205317 is handled. Duration 275 ms by bot id=8432313674
+2025-11-16 14:27:42,278 [INFO] aiogram.event: Update id=444205318 is handled. Duration 138 ms by bot id=8432313674
+2025-11-16 14:27:45,056 [INFO] aiogram.event: Update id=444205319 is handled. Duration 70 ms by bot id=8432313674
+2025-11-16 14:27:47,166 [INFO] aiogram.event: Update id=444205320 is handled. Duration 164 ms by bot id=8432313674
+2025-11-16 14:27:50,103 [INFO] aiogram.event: Update id=444205321 is handled. Duration 789 ms by bot id=8432313674
+2025-11-16 14:30:00,601 [INFO] root: Sent reminder to 259810935
+2025-11-16 14:42:01,353 [INFO] aiogram.event: Update id=444205322 is handled. Duration 204 ms by bot id=8432313674
+2025-11-16 14:42:08,808 [INFO] aiogram.event: Update id=444205323 is handled. Duration 506 ms by bot id=8432313674
+2025-11-16 14:42:14,846 [INFO] aiogram.event: Update id=444205324 is handled. Duration 150 ms by bot id=8432313674
+2025-11-16 14:42:17,072 [INFO] aiogram.event: Update id=444205325 is handled. Duration 737 ms by bot id=8432313674
+2025-11-16 14:42:22,538 [INFO] aiogram.event: Update id=444205326 is handled. Duration 371 ms by bot id=8432313674
+2025-11-16 14:42:29,031 [INFO] aiogram.event: Update id=444205327 is handled. Duration 791 ms by bot id=8432313674
+2025-11-16 14:43:15,913 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:43:15,916 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:43:15,922 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:43:16,189 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:43:28,347 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:43:28,348 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:43:28,350 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:43:28,774 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:43:28,775 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:43:29,118 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:43:29,119 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:43:29,173 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:43:29,591 [INFO] aiogram.event: Update id=444205328 is handled. Duration 355 ms by bot id=8432313674
+2025-11-16 14:43:33,441 [INFO] aiogram.event: Update id=444205329 is handled. Duration 1508 ms by bot id=8432313674
+2025-11-16 14:43:39,055 [INFO] aiogram.event: Update id=444205330 is handled. Duration 336 ms by bot id=8432313674
+2025-11-16 14:43:40,822 [INFO] aiogram.event: Update id=444205331 is handled. Duration 198 ms by bot id=8432313674
+2025-11-16 14:44:50,185 [INFO] aiogram.event: Update id=444205332 is handled. Duration 174 ms by bot id=8432313674
+2025-11-16 14:44:53,173 [INFO] aiogram.event: Update id=444205333 is handled. Duration 773 ms by bot id=8432313674
+2025-11-16 14:45:15,830 [INFO] aiogram.event: Update id=444205334 is handled. Duration 88 ms by bot id=8432313674
+2025-11-16 14:45:18,956 [INFO] aiogram.event: Update id=444205335 is handled. Duration 755 ms by bot id=8432313674
+2025-11-16 14:52:09,637 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:52:09,641 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:52:09,642 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:52:09,909 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:52:18,422 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:52:18,423 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:52:18,425 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:52:18,769 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:52:18,771 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:52:18,974 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:52:18,975 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:52:19,026 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:52:28,307 [INFO] aiogram.event: Update id=444205336 is handled. Duration 912 ms by bot id=8432313674
+2025-11-16 14:52:40,967 [INFO] aiogram.event: Update id=444205337 is handled. Duration 126 ms by bot id=8432313674
+2025-11-16 14:52:54,431 [INFO] aiogram.event: Update id=444205338 is handled. Duration 85 ms by bot id=8432313674
+2025-11-16 14:52:56,071 [INFO] aiogram.event: Update id=444205339 is handled. Duration 417 ms by bot id=8432313674
+2025-11-16 14:52:58,729 [INFO] aiogram.event: Update id=444205340 is handled. Duration 136 ms by bot id=8432313674
+2025-11-16 14:54:51,775 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:54:51,778 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:54:51,779 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:54:52,034 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:55:00,335 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:55:00,336 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:55:00,339 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:55:00,677 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:55:00,678 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:55:00,904 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:55:00,905 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:55:00,954 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:55:19,905 [INFO] aiogram.event: Update id=444205341 is handled. Duration 249 ms by bot id=8432313674
+2025-11-16 14:55:21,815 [INFO] aiogram.event: Update id=444205342 is handled. Duration 909 ms by bot id=8432313674
+2025-11-16 14:56:42,399 [INFO] aiogram.event: Update id=444205343 is handled. Duration 129 ms by bot id=8432313674
+2025-11-16 14:56:45,200 [INFO] aiogram.event: Update id=444205344 is handled. Duration 488 ms by bot id=8432313674
+2025-11-16 14:56:47,876 [INFO] aiogram.event: Update id=444205345 is handled. Duration 122 ms by bot id=8432313674
+2025-11-16 14:56:49,371 [INFO] aiogram.event: Update id=444205346 is handled. Duration 398 ms by bot id=8432313674
+2025-11-16 14:56:57,704 [INFO] aiogram.event: Update id=444205347 is handled. Duration 149 ms by bot id=8432313674
+2025-11-16 14:56:59,526 [INFO] aiogram.event: Update id=444205348 is handled. Duration 630 ms by bot id=8432313674
+2025-11-16 14:57:07,921 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-16 14:57:07,923 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-16 14:57:07,924 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-16 14:57:08,176 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:57:15,086 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-16 14:57:15,087 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-16 14:57:15,089 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-16 14:57:15,453 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-16 14:57:15,455 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-11-16 14:57:15,654 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-16 14:57:15,656 [INFO] aiogram.dispatcher: Start polling
+2025-11-16 14:57:15,707 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-16 14:57:40,675 [INFO] aiogram.event: Update id=444205349 is handled. Duration 275 ms by bot id=8432313674
+2025-11-16 14:57:42,382 [INFO] aiogram.event: Update id=444205350 is handled. Duration 806 ms by bot id=8432313674
+2025-11-16 14:57:44,463 [INFO] aiogram.event: Update id=444205351 is handled. Duration 228 ms by bot id=8432313674
+2025-11-16 14:57:46,051 [INFO] aiogram.event: Update id=444205352 is handled. Duration 605 ms by bot id=8432313674
+2025-11-16 14:57:50,526 [INFO] aiogram.event: Update id=444205353 is handled. Duration 204 ms by bot id=8432313674
+2025-11-16 14:57:52,479 [INFO] aiogram.event: Update id=444205354 is handled. Duration 443 ms by bot id=8432313674
+2025-11-16 14:57:55,718 [INFO] aiogram.event: Update id=444205355 is handled. Duration 125 ms by bot id=8432313674
+2025-11-16 15:20:29,833 [INFO] aiogram.event: Update id=444205356 is handled. Duration 83 ms by bot id=8432313674
+2025-11-16 15:20:31,684 [INFO] aiogram.event: Update id=444205357 is handled. Duration 726 ms by bot id=8432313674
+2025-11-16 15:20:34,274 [INFO] aiogram.event: Update id=444205358 is handled. Duration 143 ms by bot id=8432313674
+2025-11-16 15:20:38,762 [INFO] aiogram.event: Update id=444205359 is handled. Duration 440 ms by bot id=8432313674
+2025-11-16 15:20:48,414 [INFO] aiogram.event: Update id=444205360 is handled. Duration 288 ms by bot id=8432313674
+2025-11-16 18:09:42,172 [INFO] aiogram.event: Update id=444205361 is handled. Duration 421 ms by bot id=8432313674
+2025-11-16 18:09:44,049 [INFO] aiogram.event: Update id=444205362 is handled. Duration 429 ms by bot id=8432313674
+2025-11-16 18:09:54,837 [INFO] aiogram.event: Update id=444205363 is handled. Duration 148 ms by bot id=8432313674
+2025-11-16 18:09:57,688 [INFO] aiogram.event: Update id=444205364 is handled. Duration 75 ms by bot id=8432313674
+2025-11-16 18:09:59,841 [INFO] aiogram.event: Update id=444205365 is handled. Duration 245 ms by bot id=8432313674
+2025-11-16 18:10:02,130 [INFO] aiogram.event: Update id=444205366 is handled. Duration 994 ms by bot id=8432313674
+2025-11-16 18:10:12,443 [INFO] aiogram.event: Update id=444205367 is handled. Duration 626 ms by bot id=8432313674
+2025-11-17 00:02:44,393 [INFO] aiogram.event: Update id=444205368 is handled. Duration 643 ms by bot id=8432313674

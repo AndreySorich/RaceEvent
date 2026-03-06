@@ -1,0 +1,588 @@
+2025-11-10 13:27:14,789 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-10 13:27:14,790 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-10 13:27:14,792 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-10 13:27:15,408 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-10 13:27:15,425 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-10 13:27:15,641 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-10 13:27:15,643 [INFO] aiogram.dispatcher: Start polling
+2025-11-10 13:27:15,698 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 14:00:00,042 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 14:00:00
+2025-11-10 14:00:00,064 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 14:00:00,074 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 14:40:47,438 [INFO] aiogram.event: Update id=444205104 is handled. Duration 187 ms by bot id=8432313674
+2025-11-10 14:40:48,976 [INFO] aiogram.event: Update id=444205105 is handled. Duration 416 ms by bot id=8432313674
+2025-11-10 14:42:38,347 [INFO] aiogram.event: Update id=444205106 is handled. Duration 170 ms by bot id=8432313674
+2025-11-10 14:42:56,497 [INFO] aiogram.event: Update id=444205107 is handled. Duration 169 ms by bot id=8432313674
+2025-11-10 14:43:24,975 [INFO] aiogram.event: Update id=444205108 is handled. Duration 186 ms by bot id=8432313674
+2025-11-10 14:43:25,577 [INFO] root: 🆕 Новый пользователь: 93577892 (ysolnechnaya)
+2025-11-10 14:43:25,673 [INFO] aiogram.event: Update id=444205109 is handled. Duration 96 ms by bot id=8432313674
+2025-11-10 14:43:38,943 [INFO] aiogram.event: Update id=444205110 is handled. Duration 718 ms by bot id=8432313674
+2025-11-10 14:43:49,543 [INFO] aiogram.event: Update id=444205111 is handled. Duration 61 ms by bot id=8432313674
+2025-11-10 14:44:05,497 [INFO] aiogram.event: Update id=444205112 is handled. Duration 293 ms by bot id=8432313674
+2025-11-10 14:44:17,242 [INFO] aiogram.event: Update id=444205113 is handled. Duration 340 ms by bot id=8432313674
+2025-11-10 14:45:47,900 [INFO] aiogram.event: Update id=444205114 is handled. Duration 149 ms by bot id=8432313674
+2025-11-10 14:49:08,795 [INFO] aiogram.event: Update id=444205115 is not handled. Duration 9898 ms by bot id=8432313674
+2025-11-10 14:49:08,797 [ERROR] aiogram.event: Cause exception while process update id=444205115 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.11(weather_cache)\handlers\start.py", line 637, in add_to_calendar
+    await callback.message.answer("\u200B", reply_markup=kb_back.as_markup())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+2025-11-10 14:49:11,818 [INFO] aiogram.event: Update id=444205116 is not handled. Duration 272 ms by bot id=8432313674
+2025-11-10 14:49:11,820 [ERROR] aiogram.event: Cause exception while process update id=444205116 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.11(weather_cache)\handlers\start.py", line 637, in add_to_calendar
+    await callback.message.answer("\u200B", reply_markup=kb_back.as_markup())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+2025-11-10 14:57:47,889 [INFO] aiogram.event: Update id=444205117 is handled. Duration 333 ms by bot id=8432313674
+2025-11-10 14:57:51,953 [INFO] aiogram.event: Update id=444205118 is handled. Duration 1041 ms by bot id=8432313674
+2025-11-10 14:57:56,996 [INFO] aiogram.event: Update id=444205119 is handled. Duration 172 ms by bot id=8432313674
+2025-11-10 14:57:58,827 [INFO] aiogram.event: Update id=444205120 is not handled. Duration 309 ms by bot id=8432313674
+2025-11-10 14:57:58,828 [ERROR] aiogram.event: Cause exception while process update id=444205120 by bot id=8432313674
+TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\BOT\race_event_bot_v0.11(weather_cache)\handlers\start.py", line 637, in add_to_calendar
+    await callback.message.answer("\u200B", reply_markup=kb_back.as_markup())
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: text must be non-empty
+2025-11-10 15:00:00,030 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 15:00:00
+2025-11-10 15:00:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 15:00:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 15:34:54,061 [INFO] aiogram.event: Update id=444205121 is handled. Duration 285 ms by bot id=8432313674
+2025-11-10 16:00:00,061 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 16:00:00
+2025-11-10 16:00:00,063 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 16:00:00,064 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 16:43:21,596 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-10 16:43:21,599 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-10 16:43:21,601 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-10 16:43:21,862 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 16:43:40,350 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-10 16:43:40,352 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-10 16:43:40,354 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-10 16:43:40,816 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-10 16:43:40,830 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-10 16:43:41,258 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-10 16:43:41,261 [INFO] aiogram.dispatcher: Start polling
+2025-11-10 16:43:41,356 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 16:51:28,846 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-10 16:51:28,863 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-10 16:51:28,863 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-10 16:51:29,118 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 16:54:46,617 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-10 16:54:46,618 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-10 16:54:46,620 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-10 16:54:47,188 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-10 16:54:47,217 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-10 16:54:47,528 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-10 16:54:47,533 [INFO] aiogram.dispatcher: Start polling
+2025-11-10 16:54:47,600 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 17:00:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 17:00:00
+2025-11-10 17:00:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 17:00:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 17:45:14,996 [INFO] aiogram.event: Update id=444205122 is handled. Duration 212 ms by bot id=8432313674
+2025-11-10 17:45:17,342 [INFO] aiogram.event: Update id=444205123 is handled. Duration 1254 ms by bot id=8432313674
+2025-11-10 17:45:19,314 [INFO] aiogram.event: Update id=444205124 is handled. Duration 72 ms by bot id=8432313674
+2025-11-10 17:45:21,731 [INFO] aiogram.event: Update id=444205125 is handled. Duration 362 ms by bot id=8432313674
+2025-11-10 17:45:23,429 [INFO] aiogram.event: Update id=444205126 is handled. Duration 714 ms by bot id=8432313674
+2025-11-10 17:45:28,338 [INFO] aiogram.event: Update id=444205127 is handled. Duration 189 ms by bot id=8432313674
+2025-11-10 17:52:24,740 [INFO] aiogram.event: Update id=444205128 is handled. Duration 227 ms by bot id=8432313674
+2025-11-10 17:52:27,517 [INFO] aiogram.event: Update id=444205129 is handled. Duration 1434 ms by bot id=8432313674
+2025-11-10 17:52:36,212 [INFO] aiogram.event: Update id=444205130 is handled. Duration 298 ms by bot id=8432313674
+2025-11-10 17:53:07,438 [INFO] aiogram.dispatcher: Polling stopped
+2025-11-10 17:53:07,441 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-11-10 17:53:07,442 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8432313674)
+2025-11-10 17:53:07,719 [INFO] aiogram.dispatcher: Polling stopped for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 17:53:19,562 [INFO] __main__: 🚀 Логирование инициализировано
+2025-11-10 17:53:19,565 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-11-10 17:53:19,568 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-11-10 17:53:20,044 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-11-10 17:53:20,071 [INFO] root: ✅ Напоминания запущены (проверка каждую 10 минут)
+2025-11-10 17:53:20,309 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-11-10 17:53:20,311 [INFO] aiogram.dispatcher: Start polling
+2025-11-10 17:53:20,361 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'
+2025-11-10 17:53:26,436 [INFO] aiogram.event: Update id=444205131 is handled. Duration 246 ms by bot id=8432313674
+2025-11-10 17:53:29,344 [INFO] aiogram.event: Update id=444205132 is handled. Duration 1489 ms by bot id=8432313674
+2025-11-10 17:53:45,847 [INFO] aiogram.event: Update id=444205133 is handled. Duration 185 ms by bot id=8432313674
+2025-11-10 17:53:48,299 [INFO] aiogram.event: Update id=444205134 is handled. Duration 1388 ms by bot id=8432313674
+2025-11-10 17:53:51,672 [INFO] aiogram.event: Update id=444205135 is handled. Duration 221 ms by bot id=8432313674
+2025-11-10 18:00:00,008 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:00:00
+2025-11-10 18:00:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 18:00:00,521 [INFO] root: ✅ Напоминание 2h отправлено пользователю 259810935 (тест)
+2025-11-10 18:07:40,171 [INFO] aiogram.event: Update id=444205136 is handled. Duration 661 ms by bot id=8432313674
+2025-11-10 18:07:43,671 [INFO] aiogram.event: Update id=444205137 is handled. Duration 381 ms by bot id=8432313674
+2025-11-10 18:07:45,427 [INFO] aiogram.event: Update id=444205138 is handled. Duration 494 ms by bot id=8432313674
+2025-11-10 18:07:50,760 [INFO] aiogram.event: Update id=444205139 is handled. Duration 137 ms by bot id=8432313674
+2025-11-10 18:07:52,949 [INFO] aiogram.event: Update id=444205140 is handled. Duration 455 ms by bot id=8432313674
+2025-11-10 18:10:00,046 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:10:00
+2025-11-10 18:10:00,050 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 18:20:00,014 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:20:00
+2025-11-10 18:20:00,024 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 18:30:00,077 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:30:00
+2025-11-10 18:30:00,081 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 18:40:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:40:00
+2025-11-10 18:40:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 18:50:00,011 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 18:50:00
+2025-11-10 18:50:00,013 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:00:00,014 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:00:00
+2025-11-10 19:00:00,019 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:10:00,039 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:10:00
+2025-11-10 19:10:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:20:00,019 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:20:00
+2025-11-10 19:20:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:30:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:30:00
+2025-11-10 19:30:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:40:00,048 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:40:00
+2025-11-10 19:40:00,051 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 19:50:00,040 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 19:50:00
+2025-11-10 19:50:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:00:00,018 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:00:00
+2025-11-10 20:00:00,020 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:10:00,021 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:10:00
+2025-11-10 20:10:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:20:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:20:00
+2025-11-10 20:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:30:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:30:00
+2025-11-10 20:30:00,035 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:40:00,035 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:40:00
+2025-11-10 20:40:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 20:50:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 20:50:00
+2025-11-10 20:50:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:00:00,026 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:00:00
+2025-11-10 21:00:00,048 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:10:00,008 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:10:00
+2025-11-10 21:10:00,014 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:20:00,021 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:20:00
+2025-11-10 21:20:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:30:00,028 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:30:00
+2025-11-10 21:30:00,038 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:40:00,031 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:40:00
+2025-11-10 21:40:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 21:50:00,062 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 21:50:00
+2025-11-10 21:50:00,064 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:00:00,042 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:00:00
+2025-11-10 22:00:00,055 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:10:00,020 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:10:00
+2025-11-10 22:10:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:20:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:20:00
+2025-11-10 22:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:30:00,029 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:30:00
+2025-11-10 22:30:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:40:00,007 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:40:00
+2025-11-10 22:40:00,019 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 22:50:00,044 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 22:50:00
+2025-11-10 22:50:00,061 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:00:00,101 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:00:00
+2025-11-10 23:00:00,102 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:10:00,028 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:10:00
+2025-11-10 23:10:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:20:00,025 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:20:00
+2025-11-10 23:20:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:30:00,022 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:30:00
+2025-11-10 23:30:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:40:00,021 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:40:00
+2025-11-10 23:40:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-10 23:50:00,019 [INFO] root: 🔍 Проверка напоминаний: 10.11.2025 23:50:00
+2025-11-10 23:50:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:00:00,029 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:00:00
+2025-11-11 00:00:00,037 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:03:26,833 [INFO] aiogram.event: Update id=444205141 is handled. Duration 236 ms by bot id=8432313674
+2025-11-11 00:10:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:10:00
+2025-11-11 00:10:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:20:00,036 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:20:00
+2025-11-11 00:20:00,040 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:30:00,025 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:30:00
+2025-11-11 00:30:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:40:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:40:00
+2025-11-11 00:40:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 00:50:00,032 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 00:50:00
+2025-11-11 00:50:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:00:00,021 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:00:00
+2025-11-11 01:00:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:10:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:10:00
+2025-11-11 01:10:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:20:00,028 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:20:00
+2025-11-11 01:20:00,035 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:30:00,021 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:30:00
+2025-11-11 01:30:00,038 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:40:00,033 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:40:00
+2025-11-11 01:40:00,040 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 01:50:00,017 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 01:50:00
+2025-11-11 01:50:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:00:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:00:00
+2025-11-11 02:00:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:10:00,024 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:10:00
+2025-11-11 02:10:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:20:00,026 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:20:00
+2025-11-11 02:20:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:30:00,042 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:30:00
+2025-11-11 02:30:00,048 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:40:00,025 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:40:00
+2025-11-11 02:40:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 02:50:00,054 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 02:50:00
+2025-11-11 02:50:00,059 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:00:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:00:00
+2025-11-11 03:00:00,023 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:10:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:10:00
+2025-11-11 03:10:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:20:00,022 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:20:00
+2025-11-11 03:20:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:30:00,032 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:30:00
+2025-11-11 03:30:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:40:00,030 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:40:00
+2025-11-11 03:40:00,033 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 03:50:00,041 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 03:50:00
+2025-11-11 03:50:00,045 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:00:00,024 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:00:00
+2025-11-11 04:00:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:10:00,021 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:10:00
+2025-11-11 04:10:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:20:00,021 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:20:00
+2025-11-11 04:20:00,046 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:30:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:30:00
+2025-11-11 04:30:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:40:00,035 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:40:00
+2025-11-11 04:40:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 04:50:00,035 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 04:50:00
+2025-11-11 04:50:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:00:00,032 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:00:00
+2025-11-11 05:00:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:10:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:10:00
+2025-11-11 05:10:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:20:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:20:00
+2025-11-11 05:20:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:30:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:30:00
+2025-11-11 05:30:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:40:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:40:00
+2025-11-11 05:40:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 05:50:00,027 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 05:50:00
+2025-11-11 05:50:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:00:00,030 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:00:00
+2025-11-11 06:00:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:10:00,024 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:10:00
+2025-11-11 06:10:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:20:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:20:00
+2025-11-11 06:20:00,021 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:30:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:30:00
+2025-11-11 06:30:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:40:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:40:00
+2025-11-11 06:40:00,021 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 06:50:00,032 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 06:50:00
+2025-11-11 06:50:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:00:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:00:00
+2025-11-11 07:00:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:10:00,086 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:10:00
+2025-11-11 07:10:00,090 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:20:00,022 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:20:00
+2025-11-11 07:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:30:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:30:00
+2025-11-11 07:30:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:40:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:40:00
+2025-11-11 07:40:00,025 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 07:50:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 07:50:00
+2025-11-11 07:50:00,031 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:00:00,020 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:00:00
+2025-11-11 08:00:00,022 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:10:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:10:00
+2025-11-11 08:10:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:20:00,028 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:20:00
+2025-11-11 08:20:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:30:00,024 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:30:00
+2025-11-11 08:30:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:40:00,022 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:40:00
+2025-11-11 08:40:00,026 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 08:50:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 08:50:00
+2025-11-11 08:50:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:00:00,022 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:00:00
+2025-11-11 09:00:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:10:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:10:00
+2025-11-11 09:10:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:20:00,031 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:20:00
+2025-11-11 09:20:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:30:00,030 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:30:00
+2025-11-11 09:30:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:40:00,019 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:40:00
+2025-11-11 09:40:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 09:50:00,017 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 09:50:00
+2025-11-11 09:50:00,027 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:00:00,027 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:00:00
+2025-11-11 10:00:00,044 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:10:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:10:00
+2025-11-11 10:10:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:20:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:20:00
+2025-11-11 10:20:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:30:00,037 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:30:00
+2025-11-11 10:30:00,041 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:40:00,025 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:40:00
+2025-11-11 10:40:00,041 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 10:50:00,011 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 10:50:00
+2025-11-11 10:50:00,017 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:00:00,015 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:00:00
+2025-11-11 11:00:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:10:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:10:00
+2025-11-11 11:10:00,030 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:20:00,016 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:20:00
+2025-11-11 11:20:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:30:00,013 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:30:00
+2025-11-11 11:30:00,016 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:40:00,037 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:40:00
+2025-11-11 11:40:00,039 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 11:50:00,015 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 11:50:00
+2025-11-11 11:50:00,042 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:00:00,005 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:00:00
+2025-11-11 12:00:00,006 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:10:00,009 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:10:00
+2025-11-11 12:10:00,012 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:20:00,024 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:20:00
+2025-11-11 12:20:00,029 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:30:00,018 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:30:00
+2025-11-11 12:30:00,028 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:40:00,029 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:40:00
+2025-11-11 12:40:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 12:50:00,028 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 12:50:00
+2025-11-11 12:50:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:00:00,008 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:00:00
+2025-11-11 13:00:00,017 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:10:00,025 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:10:00
+2025-11-11 13:10:00,061 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:20:00,014 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:20:00
+2025-11-11 13:20:00,032 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:30:00,042 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:30:00
+2025-11-11 13:30:00,043 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:40:00,023 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:40:00
+2025-11-11 13:40:00,036 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 13:50:00,048 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 13:50:00
+2025-11-11 13:50:00,050 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:00:00,012 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:00:00
+2025-11-11 14:00:00,015 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:10:00,027 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:10:00
+2025-11-11 14:10:00,034 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:20:00,027 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:20:00
+2025-11-11 14:20:00,054 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:30:00,013 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:30:00
+2025-11-11 14:30:00,019 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:40:00,047 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:40:00
+2025-11-11 14:40:00,050 [WARNING] root: ⚠️ Не найдена гонка с ID 6
+2025-11-11 14:50:00,061 [INFO] root: 🔍 Проверка напоминаний: 11.11.2025 14:50:00
+2025-11-11 14:50:00,064 [WARNING] root: ⚠️ Не найдена гонка с ID 6

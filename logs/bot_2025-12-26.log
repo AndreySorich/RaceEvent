@@ -1,0 +1,8 @@
+2025-12-26 22:05:20,469 [INFO] __main__: 🚀 Логирование инициализировано
+2025-12-26 22:05:20,482 [DEBUG] asyncio: Using proactor: IocpProactor
+2025-12-26 22:05:20,493 [INFO] root: 🚀 Запуск Race Event Bot...
+2025-12-26 22:05:21,063 [DEBUG] tzlocal: Looking up time zone info from registry
+2025-12-26 22:05:21,065 [INFO] root: Reminders set up (cron: */5 * * * *)
+2025-12-26 22:05:21,382 [INFO] __main__: ✅ Бот запущен и слушает обновления...
+2025-12-26 22:05:21,384 [INFO] aiogram.dispatcher: Start polling
+2025-12-26 22:05:21,442 [INFO] aiogram.dispatcher: Run polling for bot @raceevent_bot id=8432313674 - 'Race Event'

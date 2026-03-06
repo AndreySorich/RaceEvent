@@ -1,0 +1,170 @@
+{
+  "categories": [
+    {
+      "type": "road",
+      "title": "🚴 Гонки на шоссе",
+      "races": [
+        {
+          "id": 1,
+          "name": "Cyclingrace: Садовое кольцо",
+          "date": "23.05.2026",
+          "time": "08:30",
+          "location": "Москва, Садовое кольцо",
+          "distance": "20 - 120 км",
+          "org": "Cyclingrace",
+          "description": "Садовое Кольцо – самая популярная в России любительская велогонка с вековой историей, которая ежегодно проходит по центру Москвы.",
+          "link": "https://cyclingrace.ru/sadovoe-kolco-23-maya",
+          "url": "https://cyclingrace.ru/sadovoe-kolco-23-maya"
+        },
+        {
+          "id": 2,
+          "name": "Cyclingrace: Крылатские холмы",
+          "date": "24.05.2026",
+          "time": "08:30",
+          "location": "Москва, Крылатские холмы",
+          "distance": "25 км",
+          "org": "Cyclingrace",
+          "description": "Крылатские холмы – индивидуальная велогонка с раздельным стартом на 25 километров.",
+          "link": "https://cyclingrace.ru/krylatskie-holmy-24-maya",
+          "url": "https://cyclingrace.ru/krylatskie-holmy-24-maya"
+        }
+      ]
+    },
+    {
+      "type": "trek",
+      "title": "🏟️ Гонки на треке",
+      "races": [
+        {
+          "id": 3,
+          "name": "Sputnik Track I этап",
+          "date": "22.11.2025",
+          "time": "17:30",
+          "location": "Москва, ул. Крылатская 10",
+          "distance": "от 200 метров",
+          "org": "Cycling Race",
+          "description": "Первый этап серии трековых стартов Sputnik Track. Захватывающий, динамичный и наполненный энергией вид велоспорта — гонки на треке.",
+          "link": "https://cyclingrace.ru/sputnik-track-I-etap",
+          "url": "https://cyclingrace.ru/sputnik-track-I-etap"
+        },
+        {
+          "id": 4,
+          "name": "Sputnik Track II этап",
+          "date": "06.12.2025",
+          "time": "17:30",
+          "location": "Москва, ул. Крылатская 10",
+          "distance": "от 200 метров",
+          "org": "Cycling Race",
+          "description": "Второй этап серии трековых стартов Sputnik Track. Захватывающий, динамичный и наполненный энергией вид велоспорта — гонки на треке.",
+          "link": "https://cyclingrace.ru/sputnik-track-II-etap",
+          "url": "https://cyclingrace.ru/sputnik-track-II-etap"
+        },
+        {
+          "id": 5,
+          "name": "Sputnik Track III этап",
+          "date": "20.12.2025",
+          "time": "17:30",
+          "location": "Москва, ул. Крылатская 10",
+          "distance": "от 200 метров",
+          "org": "Cycling Race",
+          "description": "Третий этап серии трековых стартов Sputnik Track. Захватывающий, динамичный и наполненный энергией вид велоспорта — гонки на треке.",
+          "link": "https://cyclingrace.ru/sputnik-track-iii-etap",
+          "url": "https://cyclingrace.ru/sputnik-track-iii-etap"
+        }
+      ]
+    },
+    {
+      "type": "triathlon",
+      "title": "🏊‍♂️ Триатлон",
+      "races": [
+        {
+          "id": 43,
+          "name": "IRONSTAR 113 Kazan",
+          "date": "10.08.2025",
+          "location": "Казань",
+          "distance": "113 км",
+          "org": "IRONSTAR",
+          "description": "Один из самых популярных стартов серии IRONSTAR. Плавание, велосипед и бег по красивейшему маршруту Казани.",
+          "link": "https://iron-star.com/event/kazan-113",
+          "url": "https://iron-star.com/event/kazan-113"
+        },
+        {
+          "id": 53,
+          "name": "Oceanman Sochi",
+          "date": "14.09.2025",
+          "location": "Сочи",
+          "distance": "1.5 км плавание + 40 км вело + 10 км бег",
+          "org": "Oceanman Russia",
+          "description": "Триатлон в живописных локациях Сочи. Испытай себя в море, на шоссе и в беге вдоль побережья.",
+          "link": "https://oceanman-sochi.com",
+          "url": "https://oceanman-sochi.com"
+        }
+      ]
+    },
+    {
+      "type": "club",
+      "title": "🚴‍♂️ Клубные заезды",
+      "races": [
+        {
+          "id": 501,
+          "name": "VeloPulse Zwift Ride",
+          "date": "11.11.2025",
+          "time": "21:00",
+          "location": "Москва",
+          "distance": "30 км",
+          "org": "Клуб VeloPulse",
+          "description": "Лёгкий клубный заезд в Zwift",
+          "link": "https://t.me/VeloPulse_channel/1455",
+          "url": "https://t.me/VeloPulse_channel/1455"
+        },
+		{
+          "id": 502,
+          "name": "Morning ride Rul Baran",
+          "date": "12.11.2025",
+          "time": "07:00",
+          "location": "Москва, Верхняя Радищевская улица, 19/3с2",
+          "distance": "40-50 км",
+          "org": "Клуб VeloPulse",
+          "description": "Пока другие спят, ты уже создаешь себя. Каждый километр — это шаг к силе и ясности ума. Вперед, навстречу новому дню в седле 💪",
+          "link": "https://t.me/VeloPulse_channel/1456",
+          "url": "https://t.me/VeloPulse_channel/1456"
+        },
+		{
+          "id": 503,
+          "name": "Тест погоды",
+          "date": "16.11.2025",
+          "time": "16:10",
+          "location": "Москва, Верхняя Радищевская улица, 19/3с2",
+          "distance": "40-50 км",
+          "org": "Клуб VeloPulse",
+          "description": "Пока другие спят, ты уже создаешь себя. Каждый километр — это шаг к силе и ясности ума. Вперед, навстречу новому дню в седле 💪",
+          "link": "https://t.me/VeloPulse_channel/1456",
+          "url": "https://t.me/VeloPulse_channel/1456"
+        },
+		{
+          "id": 504,
+          "name": "Тест погоды2",
+          "date": "16.11.2025",
+          "time": "16:20",
+          "location": "Москва, Верхняя Радищевская улица, 19/3с2",
+          "distance": "40-50 км",
+          "org": "Клуб VeloPulse",
+          "description": "Пока другие спят, ты уже создаешь себя. Каждый километр — это шаг к силе и ясности ума. Вперед, навстречу новому дню в седле 💪",
+          "link": "https://t.me/VeloPulse_channel/1456",
+          "url": "https://t.me/VeloPulse_channel/1456"
+        },
+		{
+          "id": 505,
+          "name": "Тест погоды2",
+          "date": "16.11.2025",
+          "time": "16:40",
+          "location": "Москва, Верхняя Радищевская улица 19",
+          "distance": "40-50 км",
+          "org": "Клуб VeloPulse",
+          "description": "Пока другие спят, ты уже создаешь себя. Каждый километр — это шаг к силе и ясности ума. Вперед, навстречу новому дню в седле 💪",
+          "link": "https://t.me/VeloPulse_channel/1456",
+          "url": "https://t.me/VeloPulse_channel/1456"
+        }
+      ]
+    }
+  ]
+}
